@@ -5,7 +5,7 @@
 		<Option title="Proyecto2"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/mariano/CLionProjects/Proyecto2/cmake-build-debug"/>
@@ -38,8 +38,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto2">
-				<Option output="/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/Proyecto2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mariano/CLionProjects/Proyecto2/cmake-build-debug"/>
+				<Option output="/home/mariano/CLionProjects/Proyecto2/bin/Proyecto2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mariano/CLionProjects/Proyecto2/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -61,8 +61,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto2/fast">
-				<Option output="/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/Proyecto2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mariano/CLionProjects/Proyecto2/cmake-build-debug"/>
+				<Option output="/home/mariano/CLionProjects/Proyecto2/bin/Proyecto2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mariano/CLionProjects/Proyecto2/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -89,6 +89,9 @@
 		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
