@@ -79,6 +79,11 @@ Proyecto2_EXTERNAL_OBJECTS =
 
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/main.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/build.make
+../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-system.so
+../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-window.so
+../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
+../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-network.so
+../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/Proyecto2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto2.dir/link.txt --verbose=$(VERBOSE)
