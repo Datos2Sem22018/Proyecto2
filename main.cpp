@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
     int posY = 30;
 
 
-
+//
 
     sf::RenderWindow window(sf::VideoMode(Ancho, Alto), "Tuto");
 
