@@ -7,6 +7,25 @@
 
 
 class Aliado {
+private:
+    int vida;
+    int ataque;
+    int velocidad;
+
+public:
+    void morir();
+    void atacar();
+    void caminar();
+
+
+    void getVida();
+    void setVida();
+
+    void getAtaque();
+    void setAtaque();
+
+
+
 
 };
 
