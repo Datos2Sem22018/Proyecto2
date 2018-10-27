@@ -109,18 +109,18 @@ CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp -o CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.s
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.o: ../Juego/Interfaz/PantallaPrincipal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.o -c /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaPrincipal.cpp
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o: ../Juego/Interfaz/PantallaP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o -c /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP.cpp
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaPrincipal.cpp > CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.i
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP.cpp > CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.i
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaPrincipal.cpp -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.s
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP.cpp -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.s
 
 # Object files for target Proyecto2
 Proyecto2_OBJECTS = \
@@ -128,7 +128,7 @@ Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o" \
-"CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.o"
+"CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o"
 
 # External object files for target Proyecto2
 Proyecto2_EXTERNAL_OBJECTS =
@@ -137,7 +137,7 @@ Proyecto2_EXTERNAL_OBJECTS =
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o
-../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaPrincipal.cpp.o
+../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/build.make
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-window.so
