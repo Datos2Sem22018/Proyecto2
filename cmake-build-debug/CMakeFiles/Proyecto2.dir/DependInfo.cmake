@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mariano/CLionProjects/Proyecto2/Aliado/Aliado.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Aliado/Aliado.cpp.o"
+  "/home/mariano/CLionProjects/Proyecto2/Enemigo/Enemigo.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Enemigo/Enemigo.cpp.o"
+  "/home/mariano/CLionProjects/Proyecto2/Mapa/Obstaculo.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Mapa/Obstaculo.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/main.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

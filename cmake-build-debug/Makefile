@@ -123,6 +123,87 @@ Proyecto2/fast:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/build
 .PHONY : Proyecto2/fast
 
+Aliado/Aliado.o: Aliado/Aliado.cpp.o
+
+.PHONY : Aliado/Aliado.o
+
+# target to build an object file
+Aliado/Aliado.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Aliado/Aliado.cpp.o
+.PHONY : Aliado/Aliado.cpp.o
+
+Aliado/Aliado.i: Aliado/Aliado.cpp.i
+
+.PHONY : Aliado/Aliado.i
+
+# target to preprocess a source file
+Aliado/Aliado.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Aliado/Aliado.cpp.i
+.PHONY : Aliado/Aliado.cpp.i
+
+Aliado/Aliado.s: Aliado/Aliado.cpp.s
+
+.PHONY : Aliado/Aliado.s
+
+# target to generate assembly for a file
+Aliado/Aliado.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Aliado/Aliado.cpp.s
+.PHONY : Aliado/Aliado.cpp.s
+
+Enemigo/Enemigo.o: Enemigo/Enemigo.cpp.o
+
+.PHONY : Enemigo/Enemigo.o
+
+# target to build an object file
+Enemigo/Enemigo.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Enemigo/Enemigo.cpp.o
+.PHONY : Enemigo/Enemigo.cpp.o
+
+Enemigo/Enemigo.i: Enemigo/Enemigo.cpp.i
+
+.PHONY : Enemigo/Enemigo.i
+
+# target to preprocess a source file
+Enemigo/Enemigo.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Enemigo/Enemigo.cpp.i
+.PHONY : Enemigo/Enemigo.cpp.i
+
+Enemigo/Enemigo.s: Enemigo/Enemigo.cpp.s
+
+.PHONY : Enemigo/Enemigo.s
+
+# target to generate assembly for a file
+Enemigo/Enemigo.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Enemigo/Enemigo.cpp.s
+.PHONY : Enemigo/Enemigo.cpp.s
+
+Mapa/Obstaculo.o: Mapa/Obstaculo.cpp.o
+
+.PHONY : Mapa/Obstaculo.o
+
+# target to build an object file
+Mapa/Obstaculo.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Obstaculo.cpp.o
+.PHONY : Mapa/Obstaculo.cpp.o
+
+Mapa/Obstaculo.i: Mapa/Obstaculo.cpp.i
+
+.PHONY : Mapa/Obstaculo.i
+
+# target to preprocess a source file
+Mapa/Obstaculo.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Obstaculo.cpp.i
+.PHONY : Mapa/Obstaculo.cpp.i
+
+Mapa/Obstaculo.s: Mapa/Obstaculo.cpp.s
+
+.PHONY : Mapa/Obstaculo.s
+
+# target to generate assembly for a file
+Mapa/Obstaculo.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Obstaculo.cpp.s
+.PHONY : Mapa/Obstaculo.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Proyecto2"
+	@echo "... Aliado/Aliado.o"
+	@echo "... Aliado/Aliado.i"
+	@echo "... Aliado/Aliado.s"
+	@echo "... Enemigo/Enemigo.o"
+	@echo "... Enemigo/Enemigo.i"
+	@echo "... Enemigo/Enemigo.s"
+	@echo "... Mapa/Obstaculo.o"
+	@echo "... Mapa/Obstaculo.i"
+	@echo "... Mapa/Obstaculo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

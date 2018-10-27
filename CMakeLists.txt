@@ -3,7 +3,9 @@ project(Proyecto2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp
+        Aliado/Aliado.cpp Aliado/Aliado.h
+        Enemigo/Enemigo.cpp Enemigo/Enemigo.h Mapa/Obstaculo.cpp Mapa/Obstaculo.h)
 
 
 set(EXECUTABLE_NAME "Proyecto2")
