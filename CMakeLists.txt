@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SOURCE_FILES main.cpp
         Juego/Aliado/Aliado.cpp Juego/Aliado/Aliado.h
-        Juego/Enemigo/Enemigo.cpp Juego/Enemigo/Enemigo.h Juego/Mapa/Obstaculo.cpp Juego/Mapa/Obstaculo.h)
+        Juego/Enemigo/Enemigo.cpp Juego/Enemigo/Enemigo.h Juego/Mapa/Obstaculo.cpp Juego/Mapa/Obstaculo.h Juego/Interfaz/PantallaPrincipal.cpp)
 
 
 set(EXECUTABLE_NAME "Proyecto2")
