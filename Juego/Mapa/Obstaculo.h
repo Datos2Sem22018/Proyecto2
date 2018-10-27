@@ -8,6 +8,9 @@
 
 class Obstaculo {
 
+private:
+    int pos [][];
+
 };
 
 
