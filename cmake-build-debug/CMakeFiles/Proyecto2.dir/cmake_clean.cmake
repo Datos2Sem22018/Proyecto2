@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/main.cpp.o"
-  "CMakeFiles/Proyecto2.dir/Aliado/Aliado.cpp.o"
-  "CMakeFiles/Proyecto2.dir/Enemigo/Enemigo.cpp.o"
-  "CMakeFiles/Proyecto2.dir/Mapa/Obstaculo.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o"
   "../bin/Proyecto2.pdb"
   "../bin/Proyecto2"
 )

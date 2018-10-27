@@ -84,22 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Aliado/Aliado.cpp">
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Aliado/Aliado.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Aliado/Aliado.h">
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Aliado/Aliado.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Enemigo/Enemigo.cpp">
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Enemigo/Enemigo.h">
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Mapa/Obstaculo.cpp">
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Mapa/Obstaculo.h">
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.h">
 			<Option target="Proyecto2"/>
 		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/main.cpp">

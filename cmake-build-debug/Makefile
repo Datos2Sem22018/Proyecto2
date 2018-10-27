@@ -123,86 +123,86 @@ Proyecto2/fast:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/build
 .PHONY : Proyecto2/fast
 
-Aliado/Aliado.o: Aliado/Aliado.cpp.o
+Juego/Aliado/Aliado.o: Juego/Aliado/Aliado.cpp.o
 
-.PHONY : Aliado/Aliado.o
-
-# target to build an object file
-Aliado/Aliado.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Aliado/Aliado.cpp.o
-.PHONY : Aliado/Aliado.cpp.o
-
-Aliado/Aliado.i: Aliado/Aliado.cpp.i
-
-.PHONY : Aliado/Aliado.i
-
-# target to preprocess a source file
-Aliado/Aliado.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Aliado/Aliado.cpp.i
-.PHONY : Aliado/Aliado.cpp.i
-
-Aliado/Aliado.s: Aliado/Aliado.cpp.s
-
-.PHONY : Aliado/Aliado.s
-
-# target to generate assembly for a file
-Aliado/Aliado.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Aliado/Aliado.cpp.s
-.PHONY : Aliado/Aliado.cpp.s
-
-Enemigo/Enemigo.o: Enemigo/Enemigo.cpp.o
-
-.PHONY : Enemigo/Enemigo.o
+.PHONY : Juego/Aliado/Aliado.o
 
 # target to build an object file
-Enemigo/Enemigo.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Enemigo/Enemigo.cpp.o
-.PHONY : Enemigo/Enemigo.cpp.o
+Juego/Aliado/Aliado.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o
+.PHONY : Juego/Aliado/Aliado.cpp.o
 
-Enemigo/Enemigo.i: Enemigo/Enemigo.cpp.i
+Juego/Aliado/Aliado.i: Juego/Aliado/Aliado.cpp.i
 
-.PHONY : Enemigo/Enemigo.i
+.PHONY : Juego/Aliado/Aliado.i
 
 # target to preprocess a source file
-Enemigo/Enemigo.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Enemigo/Enemigo.cpp.i
-.PHONY : Enemigo/Enemigo.cpp.i
+Juego/Aliado/Aliado.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.i
+.PHONY : Juego/Aliado/Aliado.cpp.i
 
-Enemigo/Enemigo.s: Enemigo/Enemigo.cpp.s
+Juego/Aliado/Aliado.s: Juego/Aliado/Aliado.cpp.s
 
-.PHONY : Enemigo/Enemigo.s
+.PHONY : Juego/Aliado/Aliado.s
 
 # target to generate assembly for a file
-Enemigo/Enemigo.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Enemigo/Enemigo.cpp.s
-.PHONY : Enemigo/Enemigo.cpp.s
+Juego/Aliado/Aliado.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.s
+.PHONY : Juego/Aliado/Aliado.cpp.s
 
-Mapa/Obstaculo.o: Mapa/Obstaculo.cpp.o
+Juego/Enemigo/Enemigo.o: Juego/Enemigo/Enemigo.cpp.o
 
-.PHONY : Mapa/Obstaculo.o
+.PHONY : Juego/Enemigo/Enemigo.o
 
 # target to build an object file
-Mapa/Obstaculo.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Obstaculo.cpp.o
-.PHONY : Mapa/Obstaculo.cpp.o
+Juego/Enemigo/Enemigo.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o
+.PHONY : Juego/Enemigo/Enemigo.cpp.o
 
-Mapa/Obstaculo.i: Mapa/Obstaculo.cpp.i
+Juego/Enemigo/Enemigo.i: Juego/Enemigo/Enemigo.cpp.i
 
-.PHONY : Mapa/Obstaculo.i
+.PHONY : Juego/Enemigo/Enemigo.i
 
 # target to preprocess a source file
-Mapa/Obstaculo.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Obstaculo.cpp.i
-.PHONY : Mapa/Obstaculo.cpp.i
+Juego/Enemigo/Enemigo.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.i
+.PHONY : Juego/Enemigo/Enemigo.cpp.i
 
-Mapa/Obstaculo.s: Mapa/Obstaculo.cpp.s
+Juego/Enemigo/Enemigo.s: Juego/Enemigo/Enemigo.cpp.s
 
-.PHONY : Mapa/Obstaculo.s
+.PHONY : Juego/Enemigo/Enemigo.s
 
 # target to generate assembly for a file
-Mapa/Obstaculo.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Obstaculo.cpp.s
-.PHONY : Mapa/Obstaculo.cpp.s
+Juego/Enemigo/Enemigo.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.s
+.PHONY : Juego/Enemigo/Enemigo.cpp.s
+
+Juego/Mapa/Obstaculo.o: Juego/Mapa/Obstaculo.cpp.o
+
+.PHONY : Juego/Mapa/Obstaculo.o
+
+# target to build an object file
+Juego/Mapa/Obstaculo.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o
+.PHONY : Juego/Mapa/Obstaculo.cpp.o
+
+Juego/Mapa/Obstaculo.i: Juego/Mapa/Obstaculo.cpp.i
+
+.PHONY : Juego/Mapa/Obstaculo.i
+
+# target to preprocess a source file
+Juego/Mapa/Obstaculo.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.i
+.PHONY : Juego/Mapa/Obstaculo.cpp.i
+
+Juego/Mapa/Obstaculo.s: Juego/Mapa/Obstaculo.cpp.s
+
+.PHONY : Juego/Mapa/Obstaculo.s
+
+# target to generate assembly for a file
+Juego/Mapa/Obstaculo.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.s
+.PHONY : Juego/Mapa/Obstaculo.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,15 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Proyecto2"
-	@echo "... Aliado/Aliado.o"
-	@echo "... Aliado/Aliado.i"
-	@echo "... Aliado/Aliado.s"
-	@echo "... Enemigo/Enemigo.o"
-	@echo "... Enemigo/Enemigo.i"
-	@echo "... Enemigo/Enemigo.s"
-	@echo "... Mapa/Obstaculo.o"
-	@echo "... Mapa/Obstaculo.i"
-	@echo "... Mapa/Obstaculo.s"
+	@echo "... Juego/Aliado/Aliado.o"
+	@echo "... Juego/Aliado/Aliado.i"
+	@echo "... Juego/Aliado/Aliado.s"
+	@echo "... Juego/Enemigo/Enemigo.o"
+	@echo "... Juego/Enemigo/Enemigo.i"
+	@echo "... Juego/Enemigo/Enemigo.s"
+	@echo "... Juego/Mapa/Obstaculo.o"
+	@echo "... Juego/Mapa/Obstaculo.i"
+	@echo "... Juego/Mapa/Obstaculo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
