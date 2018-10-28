@@ -109,18 +109,18 @@ CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp -o CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.s
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o: ../Juego/Interfaz/PantallaP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o -c /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP.cpp
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o -c /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.cpp
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP.cpp > CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.i
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.cpp > CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.i
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP.cpp -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.s
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.cpp -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.s
 
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.cpp
@@ -135,14 +135,42 @@ CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp -o CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.s
 
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o: ../Juego/Interfaz/Inicio/Inicio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o -c /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Inicio/Inicio.cpp
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Inicio/Inicio.cpp > CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.i
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Inicio/Inicio.cpp -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.s
+
+CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o -c /home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp
+
+CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp > CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.i
+
+CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp -o CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.s
+
 # Object files for target Proyecto2
 Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/main.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o" \
-"CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o" \
-"CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o"
+"CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o"
 
 # External object files for target Proyecto2
 Proyecto2_EXTERNAL_OBJECTS =
@@ -151,8 +179,10 @@ Proyecto2_EXTERNAL_OBJECTS =
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o
-../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o
+../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o
+../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o
+../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/build.make
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-window.so
@@ -160,7 +190,7 @@ Proyecto2_EXTERNAL_OBJECTS =
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-network.so
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/Proyecto2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/Proyecto2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
