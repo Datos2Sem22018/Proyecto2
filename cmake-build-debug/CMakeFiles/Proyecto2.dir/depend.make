@@ -13,6 +13,9 @@ CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o: ../Juego/Interfaz/Panta
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o: ../Juego/Mapa/Obstaculo.cpp
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o: ../Juego/Mapa/Obstaculo.h
 
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.cpp
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.h
+
 CMakeFiles/Proyecto2.dir/main.cpp.o: ../Juego/Interfaz/PantallaP.h
 CMakeFiles/Proyecto2.dir/main.cpp.o: ../main.cpp
 
