@@ -9,7 +9,8 @@
 class Obstaculo {
 
 private:
-    int pos [][];
+    int pos;
+    //Algo parecido a un Bufferesd Reader para cargar la imagen
 
 };
 

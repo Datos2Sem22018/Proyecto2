@@ -11,6 +11,7 @@ private:
     int vida;
     int ataque;
     int velocidad;
+    //El Sprite de la animacion.
 
 public:
     void morir();

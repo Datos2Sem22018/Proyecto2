@@ -231,6 +231,33 @@ Juego/Mapa/Obstaculo.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.s
 .PHONY : Juego/Mapa/Obstaculo.cpp.s
 
+Juego/Rutas/Rutas.o: Juego/Rutas/Rutas.cpp.o
+
+.PHONY : Juego/Rutas/Rutas.o
+
+# target to build an object file
+Juego/Rutas/Rutas.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o
+.PHONY : Juego/Rutas/Rutas.cpp.o
+
+Juego/Rutas/Rutas.i: Juego/Rutas/Rutas.cpp.i
+
+.PHONY : Juego/Rutas/Rutas.i
+
+# target to preprocess a source file
+Juego/Rutas/Rutas.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.i
+.PHONY : Juego/Rutas/Rutas.cpp.i
+
+Juego/Rutas/Rutas.s: Juego/Rutas/Rutas.cpp.s
+
+.PHONY : Juego/Rutas/Rutas.s
+
+# target to generate assembly for a file
+Juego/Rutas/Rutas.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.s
+.PHONY : Juego/Rutas/Rutas.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -279,6 +306,9 @@ help:
 	@echo "... Juego/Mapa/Obstaculo.o"
 	@echo "... Juego/Mapa/Obstaculo.i"
 	@echo "... Juego/Mapa/Obstaculo.s"
+	@echo "... Juego/Rutas/Rutas.o"
+	@echo "... Juego/Rutas/Rutas.i"
+	@echo "... Juego/Rutas/Rutas.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

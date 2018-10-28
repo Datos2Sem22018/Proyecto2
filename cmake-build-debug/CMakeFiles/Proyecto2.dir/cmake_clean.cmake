@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o"
   "CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o"
   "CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o"
   "../bin/Proyecto2.pdb"
   "../bin/Proyecto2"
 )

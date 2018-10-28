@@ -108,6 +108,12 @@
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.h">
 			<Option target="Proyecto2"/>
 		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Rutas.h">
+			<Option target="Proyecto2"/>
+		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/main.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>

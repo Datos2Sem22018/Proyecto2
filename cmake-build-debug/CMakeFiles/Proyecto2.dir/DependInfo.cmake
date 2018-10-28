@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mariano/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o"
+  "/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/main.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
