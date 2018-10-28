@@ -16,6 +16,9 @@ void PantallaP::pantallaP() {
 
     sf::RenderWindow window(sf::VideoMode(672,672), "League of Gems");
     window.setPosition(sf::Vector2i(0,0));
+
+
+
     while (window.isOpen()){
         sf::Event evento;
         while (window.pollEvent(evento)){
@@ -36,19 +39,19 @@ void PantallaP::pantallaP() {
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
                     }
             }
-            for (int i = 0; i<24;i ++){
-                for (int j = 0; j<24; j++){
-                    if (m->getDato(i,j)==0){
-                        sf::RectangleShape c1;
-                        c1.setFillColor(sf::Color::Red);
-                        c1.setSize(sf::Vector2f(28,28));
-                        c1.setPosition(sf::Vector2f(i*28, j*28));
-                        window.draw(c1);
-                    }
+
+        }
+        for (int i = 0; i<24;i ++){
+            for (int j = 0; j<24; j++){
+                if (m->getDato(i,j)==0){
+                    sf::RectangleShape c1;
+                    c1.setSize(sf::Vector2f(28,28));
+                    c1.setPosition(sf::Vector2f(i*28, j*28));
+                    c1.setFillColor(sf::Color::Red);
+                    window.draw(c1);
                 }
             }
         }
-
 
 
         window.clear(sf::Color::White);
