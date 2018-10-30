@@ -7,15 +7,12 @@
 void Aliado::morir() {
 
 }
-
 void Aliado::atacar() {
 
 }
-
 void Aliado::caminar() {
 
 }
-
 void Aliado::getVida() {
 
 }
@@ -23,11 +20,9 @@ void Aliado::getVida() {
 void Aliado::setVida() {
 
 }
-
 void Aliado::getAtaque() {
 
 }
-
 void Aliado::setAtaque() {
 
 }

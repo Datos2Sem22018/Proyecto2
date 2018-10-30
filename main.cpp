@@ -5,11 +5,6 @@
 
 
 int main(int argc, char** argv) {
-
     PantallaP::pantallaP();
-
-
-
-
     return 0;
 }
