@@ -8,19 +8,20 @@
 
 
 void Mapa::hacerMapa() {
-    for(int i = 0; i<24;i++){
-        for(int j = 0; j<24; j++){
+    for(int i = 0; i<23;i++){
+        for(int j = 0; j<23; j++){
             this->mapa[i][j]=0;
         }
     }
-    this->mapa[0][23]=this->BaseAliada;
-    this->mapa[23][0]=this->BaseEnemiga;
+    this->mapa[0][22]=this->BaseAliada;
+    this->mapa[22][0]=this->BaseEnemiga;
+    this->mapa[22][22]=this->camino;
 
 }
 
 void Mapa::imprimirMapa() {
-    for (int x = 0; x<24;x++){
-        for (int y = 0; y<24;y++) {
+    for (int x = 0; x<23;x++){
+        for (int y = 0; y<23;y++) {
             std::cout << mapa[x][y];
         }
         std::cout<<std::endl;
