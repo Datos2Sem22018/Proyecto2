@@ -177,32 +177,86 @@ Juego/Enemigo/Enemigo.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.s
 .PHONY : Juego/Enemigo/Enemigo.cpp.s
 
-Juego/Interfaz/PantallaP.o: Juego/Interfaz/PantallaP.cpp.o
+Juego/Interfaz/Inicio/Inicio.o: Juego/Interfaz/Inicio/Inicio.cpp.o
 
-.PHONY : Juego/Interfaz/PantallaP.o
+.PHONY : Juego/Interfaz/Inicio/Inicio.o
 
 # target to build an object file
-Juego/Interfaz/PantallaP.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.o
-.PHONY : Juego/Interfaz/PantallaP.cpp.o
+Juego/Interfaz/Inicio/Inicio.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o
+.PHONY : Juego/Interfaz/Inicio/Inicio.cpp.o
 
-Juego/Interfaz/PantallaP.i: Juego/Interfaz/PantallaP.cpp.i
+Juego/Interfaz/Inicio/Inicio.i: Juego/Interfaz/Inicio/Inicio.cpp.i
 
-.PHONY : Juego/Interfaz/PantallaP.i
+.PHONY : Juego/Interfaz/Inicio/Inicio.i
 
 # target to preprocess a source file
-Juego/Interfaz/PantallaP.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.i
-.PHONY : Juego/Interfaz/PantallaP.cpp.i
+Juego/Interfaz/Inicio/Inicio.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.i
+.PHONY : Juego/Interfaz/Inicio/Inicio.cpp.i
 
-Juego/Interfaz/PantallaP.s: Juego/Interfaz/PantallaP.cpp.s
+Juego/Interfaz/Inicio/Inicio.s: Juego/Interfaz/Inicio/Inicio.cpp.s
 
-.PHONY : Juego/Interfaz/PantallaP.s
+.PHONY : Juego/Interfaz/Inicio/Inicio.s
 
 # target to generate assembly for a file
-Juego/Interfaz/PantallaP.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP.cpp.s
-.PHONY : Juego/Interfaz/PantallaP.cpp.s
+Juego/Interfaz/Inicio/Inicio.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.s
+.PHONY : Juego/Interfaz/Inicio/Inicio.cpp.s
+
+Juego/Interfaz/PantallaP/PantallaP.o: Juego/Interfaz/PantallaP/PantallaP.cpp.o
+
+.PHONY : Juego/Interfaz/PantallaP/PantallaP.o
+
+# target to build an object file
+Juego/Interfaz/PantallaP/PantallaP.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o
+.PHONY : Juego/Interfaz/PantallaP/PantallaP.cpp.o
+
+Juego/Interfaz/PantallaP/PantallaP.i: Juego/Interfaz/PantallaP/PantallaP.cpp.i
+
+.PHONY : Juego/Interfaz/PantallaP/PantallaP.i
+
+# target to preprocess a source file
+Juego/Interfaz/PantallaP/PantallaP.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.i
+.PHONY : Juego/Interfaz/PantallaP/PantallaP.cpp.i
+
+Juego/Interfaz/PantallaP/PantallaP.s: Juego/Interfaz/PantallaP/PantallaP.cpp.s
+
+.PHONY : Juego/Interfaz/PantallaP/PantallaP.s
+
+# target to generate assembly for a file
+Juego/Interfaz/PantallaP/PantallaP.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.s
+.PHONY : Juego/Interfaz/PantallaP/PantallaP.cpp.s
+
+Juego/Mapa/Mapa.o: Juego/Mapa/Mapa.cpp.o
+
+.PHONY : Juego/Mapa/Mapa.o
+
+# target to build an object file
+Juego/Mapa/Mapa.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o
+.PHONY : Juego/Mapa/Mapa.cpp.o
+
+Juego/Mapa/Mapa.i: Juego/Mapa/Mapa.cpp.i
+
+.PHONY : Juego/Mapa/Mapa.i
+
+# target to preprocess a source file
+Juego/Mapa/Mapa.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.i
+.PHONY : Juego/Mapa/Mapa.cpp.i
+
+Juego/Mapa/Mapa.s: Juego/Mapa/Mapa.cpp.s
+
+.PHONY : Juego/Mapa/Mapa.s
+
+# target to generate assembly for a file
+Juego/Mapa/Mapa.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.s
+.PHONY : Juego/Mapa/Mapa.cpp.s
 
 Juego/Mapa/Obstaculo.o: Juego/Mapa/Obstaculo.cpp.o
 
@@ -300,9 +354,15 @@ help:
 	@echo "... Juego/Enemigo/Enemigo.o"
 	@echo "... Juego/Enemigo/Enemigo.i"
 	@echo "... Juego/Enemigo/Enemigo.s"
-	@echo "... Juego/Interfaz/PantallaP.o"
-	@echo "... Juego/Interfaz/PantallaP.i"
-	@echo "... Juego/Interfaz/PantallaP.s"
+	@echo "... Juego/Interfaz/Inicio/Inicio.o"
+	@echo "... Juego/Interfaz/Inicio/Inicio.i"
+	@echo "... Juego/Interfaz/Inicio/Inicio.s"
+	@echo "... Juego/Interfaz/PantallaP/PantallaP.o"
+	@echo "... Juego/Interfaz/PantallaP/PantallaP.i"
+	@echo "... Juego/Interfaz/PantallaP/PantallaP.s"
+	@echo "... Juego/Mapa/Mapa.o"
+	@echo "... Juego/Mapa/Mapa.i"
+	@echo "... Juego/Mapa/Mapa.s"
 	@echo "... Juego/Mapa/Obstaculo.o"
 	@echo "... Juego/Mapa/Obstaculo.i"
 	@echo "... Juego/Mapa/Obstaculo.s"
