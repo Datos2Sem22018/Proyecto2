@@ -9,7 +9,7 @@
 class Mapa {
 private:
 
-    int mapa [24][24];
+    int mapa [23][23];
     int noHayCamino = 0;
     int camino=1;
     int obstaculo = 2;

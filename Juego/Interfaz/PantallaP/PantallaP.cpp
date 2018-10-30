@@ -14,9 +14,14 @@ void PantallaP::pantallaP() {
     m->hacerMapa();
     m->imprimirMapa();
 
-    sf::RenderWindow window(sf::VideoMode(672,672), "League of Gems");
-    window.setPosition(sf::Vector2i(0,0));
+    int posX=0, posY=0;
 
+    sf::RenderWindow window(sf::VideoMode(672-28,672-28), "League of Gems");
+    window.setPosition(sf::Vector2i(0,0));
+    sf::RectangleShape rect;
+    rect.setSize(sf::Vector2f(28,28));
+    rect.setPosition(sf::Vector2f(posX,posY));
+    rect.setFillColor(sf::Color::Green);
 
 
     while (window.isOpen()){
@@ -37,24 +42,47 @@ void PantallaP::pantallaP() {
 
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
+
+
+                    }
+                case sf::Event::KeyPressed:
+                    if(evento.KeyPressed == sf::Keyboard::Right){
+                        rect.setPosition(sf::Vector2f(posX+=10, posY));
+                    }
+                    if(evento.KeyPressed == sf::Keyboard::Left){
+                        rect.setPosition(sf::Vector2f(posX-=10, posY));
+                    }
+                    if(evento.KeyPressed == sf::Keyboard::Down){
+                        rect.setPosition(sf::Vector2f(posX, posY+=10));
+                    }
+                    if(evento.KeyPressed == sf::Keyboard::Up){
+                        rect.setPosition(sf::Vector2f(posX, posY-=10));
                     }
             }
 
         }
-        for (int i = 0; i<24;i ++){
-            for (int j = 0; j<24; j++){
+        for (int i = 0; i<23;i ++){
+            for (int j = 0; j<23; j++){
                 if (m->getDato(i,j)==0){
                     sf::RectangleShape c1;
                     c1.setSize(sf::Vector2f(28,28));
                     c1.setPosition(sf::Vector2f(i*28, j*28));
-                    c1.setFillColor(sf::Color::Red);
+                    c1.setFillColor(sf::Color::Magenta);
+                    window.draw(c1);
+                }
+                else if(m->getDato(i,j)==1){
+                    sf::RectangleShape c1;
+                    c1.setSize(sf::Vector2f(28,28));
+                    c1.setPosition(sf::Vector2f(i*28, j*28));
+                    c1.setFillColor(sf::Color::White);
                     window.draw(c1);
                 }
             }
         }
 
 
-        window.clear(sf::Color::White);
+        //window.clear();
+        window.draw(rect);
         window.display();
     }
 
