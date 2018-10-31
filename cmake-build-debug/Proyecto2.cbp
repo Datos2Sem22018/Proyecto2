@@ -126,6 +126,12 @@
 		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Kruskal.h">
 			<Option target="Proyecto2"/>
 		</Unit>
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Prim.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Prim.h">
+			<Option target="Proyecto2"/>
+		</Unit>
 		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>

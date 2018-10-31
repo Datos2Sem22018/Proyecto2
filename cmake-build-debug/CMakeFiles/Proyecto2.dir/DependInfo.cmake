@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o"
   "/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o"
   "/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Kruskal.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Prim.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o"
   "/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o"
   "/home/karla/CLionProjects/Proyecto2/main.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/main.cpp.o"
   )

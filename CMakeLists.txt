@@ -10,7 +10,7 @@ set(SOURCE_FILES main.cpp
         Juego/Interfaz/PantallaP/PantallaP.cpp Juego/Interfaz/PantallaP/PantallaP.h
         Juego/Rutas/Rutas.cpp Juego/Rutas/Rutas.h
         Juego/Interfaz/Start/StartW.cpp Juego/Interfaz/Start/StartW.h
-        Juego/Mapa/Mapa.cpp Juego/Mapa/Mapa.h Juego/Rutas/Kruskal.cpp Juego/Rutas/Kruskal.h)
+        Juego/Mapa/Mapa.cpp Juego/Mapa/Mapa.h Juego/Rutas/Kruskal.cpp Juego/Rutas/Kruskal.h Juego/Rutas/Prim.cpp Juego/Rutas/Prim.h)
 
 
 set(EXECUTABLE_NAME "Proyecto2")
