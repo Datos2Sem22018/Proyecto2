@@ -26,7 +26,7 @@ void StartW::startW() {
         //
     }
 
-    //text
+    //
     sf::Text text;
     text.setFont(font);
     text.setString("Press Space to continue...");
