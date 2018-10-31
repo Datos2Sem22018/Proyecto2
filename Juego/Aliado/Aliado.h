@@ -12,22 +12,14 @@ private:
     int ataque;
     int velocidad;
     // el Sprite Animation
-
 public:
     void morir();
     void atacar();
     void caminar();
-
-
     void getVida();
     void setVida();
-
     void getAtaque();
     void setAtaque();
-
-
-
-
 };
 
 

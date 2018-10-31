@@ -1,5 +1,5 @@
-/home/mariano/Documentos/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mariano/CLionProjects/Proyecto2
+/home/zuckerberg/clion-2018.1.6/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zuckerberg/CLionProjects/Proyecto2
 -- Found SFML 2.4.2 in /usr/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mariano/CLionProjects/Proyecto2/cmake-build-debug
+-- Build files have been written to: /home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug
