@@ -88,4 +88,8 @@ void PantallaP::pantallaP() {
 
 }
 
+void Ruta(){
+
+}
+
 
