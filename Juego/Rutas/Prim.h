@@ -1,7 +1,3 @@
-//
-// Created by karla on 31/10/18.
-//
-
 #ifndef PROYECTO2_PRIM_H
 #define PROYECTO2_PRIM_H
 

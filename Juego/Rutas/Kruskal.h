@@ -1,13 +1,9 @@
-//
-// Created by karla on 31/10/18.
-//
-
 #ifndef PROYECTO2_KRUSKAL_H
 #define PROYECTO2_KRUSKAL_H
 
-#define V 9
 
 class Kruskal {
+    static const int V = 9;
     int find(int i);
     void union1(int i, int j);
     void kruskalMST(int cost[][V]);

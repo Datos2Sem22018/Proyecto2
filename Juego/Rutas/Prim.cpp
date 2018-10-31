@@ -1,7 +1,3 @@
-//
-// Created by karla on 31/10/18.
-//
-
 #include "Prim.h"
 #include <iostream>
 #include <stdio.h>
@@ -11,7 +7,6 @@
 int Prim::minKey(int *key, bool *mstSet, int V) {
 // Initialize min value
     int min = INT_MAX, min_index;
-
 
     for (int v = 0; v < V; v++)
         if (mstSet[v] == false && key[v] < min)
@@ -25,7 +20,6 @@ int Prim::printMST(int parent[], int n, int graph[V][V]){
     for (int i = 1; i < V; i++)
         printf("%d - %d \t%d \n", parent[i], i, graph[i][parent[i]]);
 }
-
 
 void Prim::primMST(int graph[V][V], int V)
 {
