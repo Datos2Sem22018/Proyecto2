@@ -4,14 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zuckerberg/CLionProjects/Proyecto2/Juego/Aliado/Aliado.cpp" "/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o"
-  "/home/zuckerberg/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.cpp" "/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o"
-  "/home/zuckerberg/CLionProjects/Proyecto2/Juego/Interfaz/Inicio/Inicio.cpp" "/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o"
-  "/home/zuckerberg/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.cpp" "/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o"
-  "/home/zuckerberg/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp" "/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o"
-  "/home/zuckerberg/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp" "/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o"
-  "/home/zuckerberg/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp" "/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o"
-  "/home/zuckerberg/CLionProjects/Proyecto2/main.cpp" "/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/main.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Aliado/Aliado.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Interfaz/Start/StartW.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Kruskal.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Prim.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o"
+  "/home/karla/CLionProjects/Proyecto2/main.cpp" "/home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

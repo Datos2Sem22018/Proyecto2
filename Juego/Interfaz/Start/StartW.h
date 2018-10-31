@@ -6,9 +6,9 @@
 #define PROYECTO2_INICIO_H
 
 
-class Inicio {
+class StartW {
 public:
-    static void inicio();
+    static void startW();
 
 };
 

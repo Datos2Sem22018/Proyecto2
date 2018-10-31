@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug"/>
+				<Option working_dir="/home/karla/CLionProjects/Proyecto2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug"/>
+				<Option working_dir="/home/karla/CLionProjects/Proyecto2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug"/>
+				<Option working_dir="/home/karla/CLionProjects/Proyecto2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto2">
-				<Option output="/home/zuckerberg/CLionProjects/Proyecto2/bin/Proyecto2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zuckerberg/CLionProjects/Proyecto2/bin"/>
+				<Option output="/home/karla/CLionProjects/Proyecto2/bin/Proyecto2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/karla/CLionProjects/Proyecto2/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto2/fast">
-				<Option output="/home/zuckerberg/CLionProjects/Proyecto2/bin/Proyecto2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zuckerberg/CLionProjects/Proyecto2/bin"/>
+				<Option output="/home/karla/CLionProjects/Proyecto2/bin/Proyecto2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/karla/CLionProjects/Proyecto2/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,62 +77,74 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zuckerberg/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karla/CLionProjects/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Aliado/Aliado.cpp">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Aliado/Aliado.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Aliado/Aliado.h">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Aliado/Aliado.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.cpp">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.h">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Interfaz/Inicio/Inicio.cpp">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Interfaz/Inicio/Inicio.h">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.cpp">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Interfaz/Start/StartW.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.h">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Interfaz/Start/StartW.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Mapa/Mapa.h">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Mapa.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.h">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Obstaculo.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Kruskal.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Rutas/Rutas.h">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Kruskal.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/main.cpp">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Prim.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/CMakeLists.txt">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Prim.h">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Rutas.h">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/main.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/cmake_modules/FindSFML.cmake">
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/cmake_modules/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>
