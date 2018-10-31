@@ -21,7 +21,7 @@ void StartW::startW() {
 
     //
     sf::Font font;
-    if(!font.loadFromFile("/home/karla/CLionProjects/Proyecto2/Fonts/evafangoria.ttf"))
+    if(!font.loadFromFile("../Fonts/evafangoria.ttf"))
     {
         //
     }
