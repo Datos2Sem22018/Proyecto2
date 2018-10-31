@@ -23,7 +23,7 @@ void StartW::startW() {
     sf::Font font;
     if(!font.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Fonts/evafangoria.ttf"))
     {
-        std::cout<<"Error on loading font"<<std::endl;
+        //
     }
 
     //
