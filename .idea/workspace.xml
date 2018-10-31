@@ -11,32 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Juego/Mapa/Mapa.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Juego/Mapa/Mapa.h" afterDir="false" />
+    <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="Se arregla la interfaz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Juego/Aliado/Aliado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Aliado/Aliado.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Juego/Aliado/Aliado.h" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Aliado/Aliado.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Juego/Interfaz/PantallaP.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Juego/Interfaz/PantallaP.h" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Proyecto2" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Proyecto2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto2.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,8 +85,8 @@
       <file leaf-file-name="PantallaP.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="308">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -127,8 +103,8 @@
       <file leaf-file-name="Mapa.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="462">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -146,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -231,10 +207,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="25" />
-    <option name="width" value="1310" />
-    <option name="height" value="523" />
+    <option name="x" value="293" />
+    <option name="y" value="53" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -244,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,23 +243,11 @@
               <item name="Juego" type="462c0819:PsiDirectoryNode" />
               <item name="Interfaz" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
-              <item name="Juego" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaz" type="462c0819:PsiDirectoryNode" />
-              <item name="PantallaP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
-              <item name="Juego" type="462c0819:PsiDirectoryNode" />
-              <item name="Mapa" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,6 +304,9 @@
       <workItem from="1540704358979" duration="8150000" />
       <workItem from="1540762142980" duration="5945000" />
       <workItem from="1540853149393" duration="2916000" />
+      <workItem from="1540949971618" duration="1981000" />
+      <workItem from="1540963595924" duration="13000" />
+      <workItem from="1540973735495" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="Programatons 2 Progra">
       <created>1540630959735</created>
@@ -426,21 +392,36 @@
       <option name="project" value="LOCAL" />
       <updated>1540767863115</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Se arregla la interfaz">
+      <created>1540883650970</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1540883650970</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Se arregla la interfaz">
+      <created>1540883687722</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1540883687722</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42171000" />
+    <option name="totallyTimeSpent" value="46145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Cargo" order="5" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32804233" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3298611" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3298611" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32910052" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34708995" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -501,7 +482,13 @@
     <MESSAGE value="Metodos de analisis de Rutas" />
     <MESSAGE value="Si hay algo" />
     <MESSAGE value="Domingo 5 pm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Domingo 5 pm" />
+    <MESSAGE value="Se arregla la interfaz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se arregla la interfaz" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.cpp">
@@ -751,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="462">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -766,7 +753,7 @@
     <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -779,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="308">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
