@@ -3,7 +3,7 @@
 //
 
 #include "StartW.h"
-#include "../PantallaP/PantallaP.h"
+#include "../PrincipalW/PrincipalW.h"
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
@@ -21,7 +21,7 @@ void StartW::startW() {
 
     //
     sf::Font font;
-    if(!font.loadFromFile("/home/karla/CLionProjects/Proyecto2/Fonts/evafangoria.ttf"))
+    if(!font.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Fonts/evafangoria.ttf"))
     {
         //
     }
@@ -59,7 +59,7 @@ void StartW::startW() {
                 case sf::Event::KeyPressed:
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
                         startW.close();
-                        PantallaP::pantallaP();
+                        PrincipalW::principalW();
                         break;
                     }
 

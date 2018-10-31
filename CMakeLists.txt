@@ -6,8 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(SOURCE_FILES main.cpp
         Juego/Aliado/Aliado.cpp Juego/Aliado/Aliado.h
         Juego/Enemigo/Enemigo.cpp Juego/Enemigo/Enemigo.h
-        Juego/Mapa/Obstaculo.cpp Juego/Mapa/Obstaculo.h
-        Juego/Interfaz/PantallaP/PantallaP.cpp Juego/Interfaz/PantallaP/PantallaP.h
+        Juego/Interfaz/PrincipalW/PrincipalW.cpp Juego/Interfaz/PrincipalW/PrincipalW.h
         Juego/Rutas/Rutas.cpp Juego/Rutas/Rutas.h
         Juego/Interfaz/Start/StartW.cpp Juego/Interfaz/Start/StartW.h
         Juego/Mapa/Mapa.cpp Juego/Mapa/Mapa.h Juego/Rutas/Kruskal.cpp Juego/Rutas/Kruskal.h Juego/Rutas/Prim.cpp Juego/Rutas/Prim.h)

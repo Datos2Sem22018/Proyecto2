@@ -2,12 +2,12 @@
 // Created by mariano on 27/10/18.
 //
 
-#include "PantallaP.h"
+#include "PrincipalW.h"
 #include "../../Mapa/Mapa.h"
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
-void PantallaP::pantallaP() {
+void PrincipalW::principalW() {
 
 
     Mapa *m = new Mapa();
