@@ -96,16 +96,16 @@
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Inicio/Inicio.cpp">
-			<Option target="Proyecto2"/>
-		</Unit>
-		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Inicio/Inicio.h">
-			<Option target="Proyecto2"/>
-		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PantallaP/PantallaP.h">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Start/StartW.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Start/StartW.h">
 			<Option target="Proyecto2"/>
 		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp">

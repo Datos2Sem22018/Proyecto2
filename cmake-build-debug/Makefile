@@ -177,33 +177,6 @@ Juego/Enemigo/Enemigo.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.s
 .PHONY : Juego/Enemigo/Enemigo.cpp.s
 
-Juego/Interfaz/Inicio/Inicio.o: Juego/Interfaz/Inicio/Inicio.cpp.o
-
-.PHONY : Juego/Interfaz/Inicio/Inicio.o
-
-# target to build an object file
-Juego/Interfaz/Inicio/Inicio.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o
-.PHONY : Juego/Interfaz/Inicio/Inicio.cpp.o
-
-Juego/Interfaz/Inicio/Inicio.i: Juego/Interfaz/Inicio/Inicio.cpp.i
-
-.PHONY : Juego/Interfaz/Inicio/Inicio.i
-
-# target to preprocess a source file
-Juego/Interfaz/Inicio/Inicio.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.i
-.PHONY : Juego/Interfaz/Inicio/Inicio.cpp.i
-
-Juego/Interfaz/Inicio/Inicio.s: Juego/Interfaz/Inicio/Inicio.cpp.s
-
-.PHONY : Juego/Interfaz/Inicio/Inicio.s
-
-# target to generate assembly for a file
-Juego/Interfaz/Inicio/Inicio.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.s
-.PHONY : Juego/Interfaz/Inicio/Inicio.cpp.s
-
 Juego/Interfaz/PantallaP/PantallaP.o: Juego/Interfaz/PantallaP/PantallaP.cpp.o
 
 .PHONY : Juego/Interfaz/PantallaP/PantallaP.o
@@ -230,6 +203,33 @@ Juego/Interfaz/PantallaP/PantallaP.s: Juego/Interfaz/PantallaP/PantallaP.cpp.s
 Juego/Interfaz/PantallaP/PantallaP.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.s
 .PHONY : Juego/Interfaz/PantallaP/PantallaP.cpp.s
+
+Juego/Interfaz/Start/StartW.o: Juego/Interfaz/Start/StartW.cpp.o
+
+.PHONY : Juego/Interfaz/Start/StartW.o
+
+# target to build an object file
+Juego/Interfaz/Start/StartW.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o
+.PHONY : Juego/Interfaz/Start/StartW.cpp.o
+
+Juego/Interfaz/Start/StartW.i: Juego/Interfaz/Start/StartW.cpp.i
+
+.PHONY : Juego/Interfaz/Start/StartW.i
+
+# target to preprocess a source file
+Juego/Interfaz/Start/StartW.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.i
+.PHONY : Juego/Interfaz/Start/StartW.cpp.i
+
+Juego/Interfaz/Start/StartW.s: Juego/Interfaz/Start/StartW.cpp.s
+
+.PHONY : Juego/Interfaz/Start/StartW.s
+
+# target to generate assembly for a file
+Juego/Interfaz/Start/StartW.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.s
+.PHONY : Juego/Interfaz/Start/StartW.cpp.s
 
 Juego/Mapa/Mapa.o: Juego/Mapa/Mapa.cpp.o
 
@@ -354,12 +354,12 @@ help:
 	@echo "... Juego/Enemigo/Enemigo.o"
 	@echo "... Juego/Enemigo/Enemigo.i"
 	@echo "... Juego/Enemigo/Enemigo.s"
-	@echo "... Juego/Interfaz/Inicio/Inicio.o"
-	@echo "... Juego/Interfaz/Inicio/Inicio.i"
-	@echo "... Juego/Interfaz/Inicio/Inicio.s"
 	@echo "... Juego/Interfaz/PantallaP/PantallaP.o"
 	@echo "... Juego/Interfaz/PantallaP/PantallaP.i"
 	@echo "... Juego/Interfaz/PantallaP/PantallaP.s"
+	@echo "... Juego/Interfaz/Start/StartW.o"
+	@echo "... Juego/Interfaz/Start/StartW.i"
+	@echo "... Juego/Interfaz/Start/StartW.s"
 	@echo "... Juego/Mapa/Mapa.o"
 	@echo "... Juego/Mapa/Mapa.i"
 	@echo "... Juego/Mapa/Mapa.s"

@@ -7,12 +7,13 @@ CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o: ../Juego/Aliado/Aliado.h
 CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.cpp
 CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.h
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o: ../Juego/Interfaz/Inicio/Inicio.cpp
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/Inicio/Inicio.cpp.o: ../Juego/Interfaz/Inicio/Inicio.h
-
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o: ../Juego/Mapa/Mapa.h
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.cpp
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.h
 
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.cpp
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.h
@@ -24,6 +25,7 @@ CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.h
 
 CMakeFiles/Proyecto2.dir/main.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.h
+CMakeFiles/Proyecto2.dir/main.cpp.o: ../Juego/Interfaz/Start/StartW.h
 CMakeFiles/Proyecto2.dir/main.cpp.o: ../Juego/Mapa/Mapa.h
 CMakeFiles/Proyecto2.dir/main.cpp.o: ../main.cpp
 

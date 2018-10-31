@@ -11,8 +11,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="">
+    <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="Listo dibuja y no deja rastro">
+      <change afterPath="$PROJECT_DIR$/Fonts/arial_narrow_7.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fonts/evafangoria.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juego/Interfaz/Start/StartW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.h" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Interfaz/Start/StartW.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,24 +49,26 @@
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3748" />
-          <entry key="h" value="925" />
-          <entry key="txt" value="388" />
+          <entry key="cpp" value="5106" />
+          <entry key="h" value="938" />
+          <entry key="txt" value="451" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="100" />
-          <entry key="ObjectiveC" value="4673" />
-          <entry key="PLAIN_TEXT" value="288" />
+          <entry key="CMakeLists.txt" value="105" />
+          <entry key="Doxygen file" value="1" />
+          <entry key="ObjectiveC" value="6043" />
+          <entry key="PLAIN_TEXT" value="346" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,11 +77,12 @@
           <entry key="cpp" value="15" />
           <entry key="h" value="12" />
           <entry key="hpp" value="2" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="1" />
+          <entry key="CMakeLists.txt" value="2" />
           <entry key="ObjectiveC" value="29" />
         </counts>
       </usages-collector>
@@ -74,20 +93,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Start/StartW.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="675">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -95,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="18" column="76" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="76" />
               <folding>
                 <element signature="e#42#64#0" expanded="true" />
               </folding>
@@ -126,10 +142,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.h">
+        <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Start/StartW.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -148,15 +164,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Rutas/Rutas.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -187,7 +194,6 @@
         <option value="$PROJECT_DIR$/config.hpp" />
         <option value="$PROJECT_DIR$/Pong.cpp" />
         <option value="$PROJECT_DIR$/Pong.hpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Enemigo/Enemigo.h" />
         <option value="$PROJECT_DIR$/Juego/Enemigo/Enemigo.cpp" />
         <option value="$PROJECT_DIR$/Juego/Aliado/Aliado.cpp" />
@@ -200,11 +206,17 @@
         <option value="$PROJECT_DIR$/Juego/Rutas/Rutas.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/PantallaP.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.h" />
-        <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Juego/Mapa/Mapa.h" />
         <option value="$PROJECT_DIR$/Juego/Mapa/Mapa.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp" />
+        <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.cpp" />
+        <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/Start.h" />
+        <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/Start.cpp" />
+        <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/StartW.h" />
+        <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/StartW.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Juego/Interfaz/Start/StartW.cpp" />
       </list>
     </option>
   </component>
@@ -228,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +250,34 @@
             <path>
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+              <item name="Fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
               <item name="Juego" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+              <item name="Juego" type="462c0819:PsiDirectoryNode" />
+              <item name="Aliado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+              <item name="Juego" type="462c0819:PsiDirectoryNode" />
+              <item name="Enemigo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
@@ -252,7 +290,7 @@
               <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
               <item name="Juego" type="462c0819:PsiDirectoryNode" />
               <item name="Interfaz" type="462c0819:PsiDirectoryNode" />
-              <item name="PantallaP" type="462c0819:PsiDirectoryNode" />
+              <item name="Start" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
@@ -260,10 +298,17 @@
               <item name="Juego" type="462c0819:PsiDirectoryNode" />
               <item name="Mapa" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+              <item name="Juego" type="462c0819:PsiDirectoryNode" />
+              <item name="Rutas" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,9 +316,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Juego/Interfaz/PantallaP" />
       <recent name="$PROJECT_DIR$/Juego" />
@@ -326,7 +375,8 @@
       <workItem from="1540704358979" duration="8150000" />
       <workItem from="1540762142980" duration="6442000" />
       <workItem from="1540882329366" duration="1806000" />
-      <workItem from="1540949490493" duration="253000" />
+      <workItem from="1540949490493" duration="3175000" />
+      <workItem from="1540963626485" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="Programatons 2 Progra">
       <created>1540630959735</created>
@@ -426,22 +476,29 @@
       <option name="project" value="LOCAL" />
       <updated>1540883471480</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Pre-Revision del Profe">
+      <created>1540950007811</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1540950007811</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41174000" />
+    <option name="totallyTimeSpent" value="49014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="700" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25226587" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2560423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2986111" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18229167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,8 +513,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Cargo" order="5" />
+      <window_info anchor="right" id="Cargo" order="4" weight="0.32930514" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.244713" />
@@ -503,7 +560,9 @@
     <MESSAGE value="Domingo 5 pm" />
     <MESSAGE value="Domingo 6 pm" />
     <MESSAGE value="HAciendo Graficos a lo loco" />
-    <option name="LAST_COMMIT_MESSAGE" value="HAciendo Graficos a lo loco" />
+    <MESSAGE value="Pre-Revision del Profe" />
+    <MESSAGE value="Listo dibuja y no deja rastro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listo dibuja y no deja rastro" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config.hpp" />
@@ -513,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4695">
           <caret line="364" column="7" selection-start-line="364" selection-start-column="7" selection-end-line="364" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -555,22 +607,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Rutas.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.cpp">
+    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="270">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="76" />
           <folding>
-            <element signature="e#42#61#0" expanded="true" />
+            <element signature="e#42#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Inicio/Inicio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -610,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Rutas.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Enemigo/Enemigo.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -624,12 +659,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PantallaP/PantallaP.cpp">
+    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Start/StartW.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Start/StartW.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding>
-            <element signature="e#42#64#0" expanded="true" />
+            <element signature="e#42#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

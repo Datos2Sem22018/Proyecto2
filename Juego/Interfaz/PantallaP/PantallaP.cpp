@@ -18,6 +18,7 @@ void PantallaP::pantallaP() {
 
     sf::RenderWindow window(sf::VideoMode(672-28,672-28), "League of Gems");
     window.setPosition(sf::Vector2i(0,0));
+
     sf::RectangleShape rect;
     rect.setSize(sf::Vector2f(28,28));
     rect.setPosition(sf::Vector2f(posX,posY));
@@ -31,7 +32,6 @@ void PantallaP::pantallaP() {
                 case sf::Event::Closed:
                     window.close();
                     break;
-
                 case sf::Event::MouseButtonPressed:
                     if (evento.MouseButtonPressed) {
                         std::string x = std::to_string(sf::Mouse::getPosition().x);
@@ -42,25 +42,25 @@ void PantallaP::pantallaP() {
 
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
-
-
                     }
                 case sf::Event::KeyPressed:
-                    if(evento.KeyPressed == sf::Keyboard::Right){
+                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
                         rect.setPosition(sf::Vector2f(posX+=10, posY));
                     }
-                    if(evento.KeyPressed == sf::Keyboard::Left){
+                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
                         rect.setPosition(sf::Vector2f(posX-=10, posY));
                     }
-                    if(evento.KeyPressed == sf::Keyboard::Down){
+                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)){
                         rect.setPosition(sf::Vector2f(posX, posY+=10));
                     }
-                    if(evento.KeyPressed == sf::Keyboard::Up){
+                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
                         rect.setPosition(sf::Vector2f(posX, posY-=10));
                     }
             }
 
         }
+
+        window.clear();
         for (int i = 0; i<23;i ++){
             for (int j = 0; j<23; j++){
                 if (m->getDato(i,j)==0){
@@ -81,7 +81,7 @@ void PantallaP::pantallaP() {
         }
 
 
-        //window.clear();
+
         window.draw(rect);
         window.display();
     }
@@ -89,6 +89,7 @@ void PantallaP::pantallaP() {
 }
 
 void Ruta(){
+
 
 }
 
