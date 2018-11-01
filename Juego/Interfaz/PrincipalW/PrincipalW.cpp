@@ -24,6 +24,13 @@ void PrincipalW::principalW() {
     rect.setPosition(sf::Vector2f(posX,posY));
     rect.setFillColor(sf::Color::Green);
 
+    sf::Texture gem;
+    gem.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Gem/gem.png");
+
+    sf::Sprite Sgem(gem);
+    Sgem.setPosition(20*28, 0);
+
+
 
     while (window.isOpen()){
         sf::Event evento;
@@ -101,7 +108,7 @@ void PrincipalW::principalW() {
         }
 
 
-
+        window.draw(Sgem);
         window.draw(rect);
         window.display();
     }
