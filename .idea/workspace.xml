@@ -13,8 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="Se actualiza la interfaz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Proyecto2" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Proyecto2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Juego/Aliado/Aliado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Aliado/Aliado.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Juego/Aliado/Aliado.h" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Aliado/Aliado.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrincipalW.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrincipalW.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
-              <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+              <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -142,11 +142,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aliado.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Aliado.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="264">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aliado.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -188,12 +197,10 @@
         <option value="$PROJECT_DIR$/Pong.hpp" />
         <option value="$PROJECT_DIR$/Enemigo/Enemigo.h" />
         <option value="$PROJECT_DIR$/Juego/Enemigo/Enemigo.cpp" />
-        <option value="$PROJECT_DIR$/Juego/Aliado/Aliado.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/PantallaPrincipal.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/PantallaP.h" />
         <option value="$PROJECT_DIR$/Juego/Mapa/Obstaculo.h" />
         <option value="$PROJECT_DIR$/Juego/Enemigo/Enemigo.h" />
-        <option value="$PROJECT_DIR$/Juego/Aliado/Aliado.h" />
         <option value="$PROJECT_DIR$/Juego/Rutas/Rutas.h" />
         <option value="$PROJECT_DIR$/Juego/Rutas/Rutas.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/PantallaP.cpp" />
@@ -211,6 +218,8 @@
         <option value="$PROJECT_DIR$/Juego/Mapa/Mapa.h" />
         <option value="$PROJECT_DIR$/Juego/Mapa/Mapa.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp" />
+        <option value="$PROJECT_DIR$/Juego/Aliado/Aliado.cpp" />
+        <option value="$PROJECT_DIR$/Juego/Aliado/Aliado.h" />
       </list>
     </option>
   </component>
@@ -271,6 +280,12 @@
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
               <item name="Juego" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+              <item name="Juego" type="462c0819:PsiDirectoryNode" />
+              <item name="Aliado" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
@@ -557,11 +572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541058297666</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Se actualiza la interfaz">
+      <created>1541058520709</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1541058520709</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66212000" />
+    <option name="totallyTimeSpent" value="67294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -573,10 +595,10 @@
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3298611" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924472" weight="0.32804233" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49773413" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773413" visible="true" weight="0.32910052" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25957906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25957906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
@@ -824,13 +846,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Mapa/Obstaculo.cpp" />
     <entry file="file://$PROJECT_DIR$/Juego/Mapa/Obstaculo.h" />
-    <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Rutas/Rutas.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -859,13 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -921,7 +929,21 @@
     <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+          <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>

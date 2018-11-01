@@ -5,21 +5,25 @@
 #ifndef PROYECTO2_ALIADO_H
 #define PROYECTO2_ALIADO_H
 
+#include <SFML/Graphics.hpp>
+
 
 class Aliado {
 private:
     int vida;
     int ataque;
     int velocidad;
+    sf::Vector2i* moveVector;
     // el Sprite Animation
 public:
+    Aliado();
     void morir();
     void atacar();
     void caminar();
-    void getVida();
-    void setVida();
-    void getAtaque();
-    void setAtaque();
+    int getVida();
+    void setVida(int Vida);
+    int getAtaque();
+    void setAtaque(int Ataque);
 };
 
 

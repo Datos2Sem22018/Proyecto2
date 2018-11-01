@@ -4,6 +4,12 @@
 
 #include "Aliado.h"
 
+Aliado::Aliado() {
+    this->ataque = 10;
+    this->vida = 100;
+    this->velocidad = 110;
+}
+
 void Aliado::morir() {
 
 }
@@ -13,16 +19,16 @@ void Aliado::atacar() {
 void Aliado::caminar() {
 
 }
-void Aliado::getVida() {
-
+int Aliado::getVida() {
+    return vida;
 }
 
-void Aliado::setVida() {
-
+void Aliado::setVida(int Vida) {
+    this->vida = Vida;
 }
-void Aliado::getAtaque() {
-
+int Aliado::getAtaque() {
+    return ataque;
 }
-void Aliado::setAtaque() {
-
+void Aliado::setAtaque(int Ataque) {
+    this->ataque = Ataque;
 }
