@@ -24,12 +24,6 @@ CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.h
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o: ../Juego/Rutas/Prim.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o: ../Juego/Rutas/Prim.h
 
-CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.cpp
-CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.h
-
-CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o: ../Juego/Rutas/Prim.cpp
-CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o: ../Juego/Rutas/Prim.h
-
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.h
 

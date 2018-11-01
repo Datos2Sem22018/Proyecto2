@@ -21,7 +21,7 @@ void StartW::startW() {
 
     //
     sf::Font font;
-    if(!font.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Fonts/evafangoria.ttf"))
+    if(!font.loadFromFile("../Fonts/evafangoria.ttf"))
     {
         //
     }
@@ -37,7 +37,7 @@ void StartW::startW() {
 
     //Texture
     sf::Texture texture;
-    texture.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/StartBG.png");
+    texture.loadFromFile("../Images/StartBG.png");
 
     //Sprite
     sf::Sprite sprite(texture);
