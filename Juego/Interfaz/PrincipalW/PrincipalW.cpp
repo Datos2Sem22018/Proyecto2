@@ -45,16 +45,29 @@ void PrincipalW::principalW() {
                     }
                 case sf::Event::KeyPressed:
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
-                        rect.setPosition(sf::Vector2f(posX+=10, posY));
+
+                        if(m->getDato(posY,(posX/28)+1)==2)
+                            std::cout<<"Obstacule"<<std::endl;
+                        else
+                            rect.setPosition(sf::Vector2f(posX+=28, posY));
                     }
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
-                        rect.setPosition(sf::Vector2f(posX-=10, posY));
+                        if(m->getDato(posY, (posX/28)-1)==2)
+                            std::cout<<"Obstacule"<<std::endl;
+                        else
+                            rect.setPosition(sf::Vector2f(posX-=28, posY));
                     }
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)){
-                        rect.setPosition(sf::Vector2f(posX, posY+=10));
+                        if(m->getDato((posY/28)+1,posX)==2)
+                            std::cout<<"Obstacule"<<std::endl;
+                        else
+                            rect.setPosition(sf::Vector2f(posX, posY+=28));
                     }
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
-                        rect.setPosition(sf::Vector2f(posX, posY-=10));
+                        if(m->getDato((posY/28)-1,posX)==2)
+                            std::cout<<"Obstacule"<<std::endl;
+                        else
+                            rect.setPosition(sf::Vector2f(posX, posY-=28));
                     }
             }
 
@@ -63,19 +76,26 @@ void PrincipalW::principalW() {
         window.clear();
         for (int i = 0; i<23;i ++){
             for (int j = 0; j<23; j++){
-                if (m->getDato(i,j)==0){
-                    sf::RectangleShape c1;
-                    c1.setSize(sf::Vector2f(28,28));
-                    c1.setPosition(sf::Vector2f(i*28, j*28));
-                    c1.setFillColor(sf::Color::Magenta);
-                    window.draw(c1);
+                if (m->getDato(j,i)==0){
+                    sf::Texture texture;
+                    texture.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Road/road.png");
+                    sf::Sprite sprite(texture);
+                    sprite.setPosition(i*28, j*28);
+                    window.draw(sprite);
                 }
-                else if(m->getDato(i,j)==1){
+                else if(m->getDato(j,i)==1){
                     sf::RectangleShape c1;
                     c1.setSize(sf::Vector2f(28,28));
                     c1.setPosition(sf::Vector2f(i*28, j*28));
                     c1.setFillColor(sf::Color::White);
                     window.draw(c1);
+                }
+                else if(m->getDato(j,i)==2){
+                    sf::Texture texture;
+                    texture.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Bush/1.png");
+                    sf::Sprite sprite(texture);
+                    sprite.setPosition(i*28, j*28);
+                    window.draw(sprite);
                 }
             }
         }
