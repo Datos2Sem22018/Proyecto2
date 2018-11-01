@@ -17,6 +17,13 @@ void Mapa::hacerMapa() {
     this->mapa[22][0]=this->BaseEnemiga;
     this->mapa[22][22]=this->camino;
 
+    for (int i=0; i<30;i++){
+        int x =rand()%22;
+        int y =rand()%22;
+        std::cout<<x<<","<<y<<std::endl;
+        this->mapa[x][y]=this->obstaculo;
+    }
+
 }
 
 void Mapa::imprimirMapa() {
