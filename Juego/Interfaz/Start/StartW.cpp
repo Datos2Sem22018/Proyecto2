@@ -3,7 +3,7 @@
 //
 
 #include "StartW.h"
-#include "../PantallaP/PantallaP.h"
+#include "../PrincipalW/PrincipalW.h"
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
@@ -21,7 +21,7 @@ void StartW::startW() {
 
     //
     sf::Font font;
-    if(!font.loadFromFile("../Fonts/evafangoria.ttf"))
+    if(!font.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Fonts/evafangoria.ttf"))
     {
         //
     }
@@ -31,9 +31,16 @@ void StartW::startW() {
     text.setFont(font);
     text.setString("Press Space to continue...");
     text.setCharacterSize(50);
-    sf::Color color(204,163,0);
+    sf::Color color(sf:: Color::Black);
     text.setFillColor(color);
     text.setPosition(150,150);
+
+    //Texture
+    sf::Texture texture;
+    texture.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/StartBG.png");
+
+    //Sprite
+    sf::Sprite sprite(texture);
 
 
 
@@ -52,7 +59,7 @@ void StartW::startW() {
                 case sf::Event::KeyPressed:
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
                         startW.close();
-                        PantallaP::pantallaP();
+                        PrincipalW::principalW();
                         break;
                     }
 
@@ -62,8 +69,8 @@ void StartW::startW() {
             }
         }
 
-
-
+        startW.clear(sf::Color(244, 190, 7));
+        startW.draw(sprite);
         startW.draw(text);
         startW.display();
     }

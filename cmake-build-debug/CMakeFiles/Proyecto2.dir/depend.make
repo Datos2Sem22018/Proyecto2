@@ -7,19 +7,22 @@ CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o: ../Juego/Aliado/Aliado.h
 CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.cpp
 CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.h
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.cpp
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.h
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PantallaP/PantallaP.cpp.o: ../Juego/Mapa/Mapa.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.cpp
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Mapa/Mapa.h
 
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.h
 
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.cpp
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.h
 
-CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o: ../Juego/Mapa/Obstaculo.cpp
-CMakeFiles/Proyecto2.dir/Juego/Mapa/Obstaculo.cpp.o: ../Juego/Mapa/Obstaculo.h
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.cpp
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.h
+
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o: ../Juego/Rutas/Prim.cpp
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o: ../Juego/Rutas/Prim.h
 
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.h
@@ -30,7 +33,6 @@ CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o: ../Juego/Rutas/Prim.h
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o: ../Juego/Rutas/Rutas.h
 
-CMakeFiles/Proyecto2.dir/main.cpp.o: ../Juego/Interfaz/PantallaP/PantallaP.h
 CMakeFiles/Proyecto2.dir/main.cpp.o: ../Juego/Interfaz/Start/StartW.h
 CMakeFiles/Proyecto2.dir/main.cpp.o: ../Juego/Mapa/Mapa.h
 CMakeFiles/Proyecto2.dir/main.cpp.o: ../main.cpp

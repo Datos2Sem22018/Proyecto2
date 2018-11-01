@@ -6,10 +6,10 @@
 #define PROYECTO2_PANTALLAP_H
 
 
-class PantallaP {
+class PrincipalW {
 
 public:
-    static void pantallaP();
+    static void principalW();
 
 };
 
