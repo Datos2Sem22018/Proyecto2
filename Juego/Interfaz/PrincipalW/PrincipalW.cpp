@@ -78,7 +78,7 @@ void PrincipalW::principalW() {
             for (int j = 0; j<23; j++){
                 if (m->getDato(j,i)==0){
                     sf::Texture texture;
-                    texture.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Road/road.png");
+                    texture.loadFromFile("../Images/Road/road.png");
                     sf::Sprite sprite(texture);
                     sprite.setPosition(i*28, j*28);
                     window.draw(sprite);
@@ -92,7 +92,7 @@ void PrincipalW::principalW() {
                 }
                 else if(m->getDato(j,i)==2){
                     sf::Texture texture;
-                    texture.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Bush/1.png");
+                    texture.loadFromFile("../Images/Bush/1.png");
                     sf::Sprite sprite(texture);
                     sprite.setPosition(i*28, j*28);
                     window.draw(sprite);
