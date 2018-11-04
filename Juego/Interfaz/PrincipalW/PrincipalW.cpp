@@ -25,7 +25,7 @@ void PrincipalW::principalW() {
     rect.setFillColor(sf::Color::Green);
 
     sf::Texture gem;
-    gem.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Gem/gem.png");
+    gem.loadFromFile("../Images/Gem/gem.png");
 
     sf::Sprite Sgem(gem);
     Sgem.setPosition(20*28, 0);
