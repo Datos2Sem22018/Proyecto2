@@ -31,11 +31,10 @@ bool BreadthFirstSearch::BFS(int (*graph)[V], int s, int dest, int v) {
     return false;
 }
 
-void BreadthFirstSearch::printShortestDistance(int(*graph)[V], int s, int dest, int v) {
+std::vector<int> BreadthFirstSearch::returnShortestDistance(int(*graph)[V], int s, int dest, int v) {
     int pred[v], dist[v];
     if (!BFS(graph, s, dest, v)) {
         std::cout << "Given source and destination" << " are not connected" << std::endl;
-        return;
     }
     std::vector<int> path;
     int crawl = dest;
@@ -49,4 +48,5 @@ void BreadthFirstSearch::printShortestDistance(int(*graph)[V], int s, int dest, 
     for (int i = V-1; i >= 0; i--) {
         std::cout << path[i] << " ";
     }
+    return path;
 }

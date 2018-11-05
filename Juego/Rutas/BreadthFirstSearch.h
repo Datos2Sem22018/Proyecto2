@@ -9,10 +9,10 @@
 class BreadthFirstSearch {
 private:
     static const int V = 23;
-    void printShortestDistance(int graph[V][V], int s, int dest, int v);
+    bool BFS(int graph[V][V], int s, int dest, int v);
 public:
     BreadthFirstSearch() = default;
-    bool BFS(int graph[V][V], int s, int dest, int v);
+    std::vector<int> returnShortestDistance(int graph[V][V], int s, int dest, int v);
 };
 
 
