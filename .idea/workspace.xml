@@ -11,24 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="Se implementa Dijkstra">
-      <change afterPath="$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto2.cbp" afterDir="false" />
-    </list>
+    <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,93 +109,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mapa.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mapa.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#42#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrincipalW.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrincipalW.cpp" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BreadthFirstSearch.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Gem/gem.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="BreadthFirstSearch.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Dijkstra.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Rutas/Dijkstra.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="120">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dijkstra.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Juego/Rutas/Dijkstra.h">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Juego/Rutas/Kruskal.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-              <folding>
-                <element signature="e#104#122#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="438">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enemigo.h" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Juego/Rutas/Rutas.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Juego/Enemigo/Enemigo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="312">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -251,16 +213,12 @@
         <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/StartW.h" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/Inicio/StartW.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/Start/StartW.cpp" />
-        <option value="$PROJECT_DIR$/Juego/Mapa/Mapa.cpp" />
-        <option value="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.h" />
         <option value="$PROJECT_DIR$/Juego/Mapa/Mapa.h" />
-        <option value="$PROJECT_DIR$/Juego/Rutas/Dijkstra.h" />
-        <option value="$PROJECT_DIR$/Juego/Rutas/Dijkstra.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp" />
-        <option value="$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.h" />
-        <option value="$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.cpp" />
+        <option value="$PROJECT_DIR$/Juego/Mapa/Mapa.cpp" />
       </list>
     </option>
   </component>
@@ -269,9 +227,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
@@ -298,41 +253,18 @@
             <path>
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
               <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
               <item name="Images" type="462c0819:PsiDirectoryNode" />
-              <item name="Bush" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
-              <item name="Road" type="462c0819:PsiDirectoryNode" />
+              <item name="Gem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
               <item name="Juego" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
-              <item name="Juego" type="462c0819:PsiDirectoryNode" />
-              <item name="Aliado" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
-              <item name="Juego" type="462c0819:PsiDirectoryNode" />
-              <item name="Enemigo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto2" type="b2602c69:ProjectViewProjectNode" />
@@ -407,8 +339,16 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Proyecto2">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="Proyecto2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Proyecto2" TARGET_NAME="Proyecto2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Proyecto2" RUN_TARGET_NAME="Proyecto2" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Proyecto2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Proyecto2" TARGET_NAME="Proyecto2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Proyecto2" RUN_TARGET_NAME="Proyecto2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.Proyecto2" />
@@ -642,102 +582,62 @@
       <option name="project" value="LOCAL" />
       <updated>1541383728622</updated>
     </task>
-    <task id="LOCAL-00030" summary="Default Changelist">
-      <created>1541384321382</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1541384321382</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Default Changelist">
-      <created>1541393820015</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1541393820015</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Default Changelist">
-      <created>1541396663125</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1541396663125</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Se implementa Dijkstra">
-      <created>1541397137576</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1541397137576</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82442000" />
+    <option name="totallyTimeSpent" value="72159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Cargo" order="4" weight="0.32930514" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49848944" weight="0.32592592" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3298611" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" side_tool="true" weight="0.3298611" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49924472" visible="true" weight="0.23492064" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773413" weight="0.32910052" />
-      <window_info anchor="right" id="Mongo Explorer" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26335672" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3298611" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Cargo" order="4" weight="0.32930514" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27272728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773413" weight="0.3298611" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49848944" weight="0.32626426" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" side_tool="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924472" weight="0.3298611" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3298611" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924472" weight="0.3298611" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773413" weight="0.3298611" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
+      <window_info anchor="right" id="Cargo" order="4" weight="0.32930514" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" side_tool="true" weight="0.3298611" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3298611" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.244713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2621528" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2621528" />
-      <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
-      <window_info anchor="right" id="Cargo" order="5" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.328125" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.328125" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3298611" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3298611" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="LuaJ" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Cargo" order="5" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,118 +665,9 @@
     <MESSAGE value="Listo StartW" />
     <MESSAGE value="Avance mucho con el tablero" />
     <MESSAGE value="Boruvka is ready, finally" />
-    <MESSAGE value="Default Changelist" />
-    <MESSAGE value="Se implementa Dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se implementa Dijkstra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Boruvka is ready, finally" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Rutas.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Start/StartW.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/indice.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Start/StartW.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/Gem/gem.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Rutas.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Enemigo/Enemigo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.hpp" />
     <entry file="file://$PROJECT_DIR$/Pong.hpp" />
     <entry file="file://$PROJECT_DIR$/Pong.cpp" />
@@ -906,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Rutas/Rutas.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="300">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
@@ -920,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Interfaz/Start/StartW.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="150">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
@@ -931,11 +722,8 @@
     <entry file="file://$PROJECT_DIR$/Images/1.jpg" />
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -949,8 +737,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Images/Gem/gem.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -963,6 +772,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Enemigo/Enemigo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Kruskal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -981,100 +804,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Kruskal.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Kruskal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Prim.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Prim.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Mapa/Mapa.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/Proyecto2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret column="497" selection-start-column="497" selection-end-column="497" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Enemigo/Enemigo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Dijkstra.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/Dijkstra.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="e#104#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
