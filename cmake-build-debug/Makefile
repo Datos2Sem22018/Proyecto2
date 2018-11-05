@@ -258,6 +258,33 @@ Juego/Mapa/Mapa.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.s
 .PHONY : Juego/Mapa/Mapa.cpp.s
 
+Juego/Rutas/Boruvka.o: Juego/Rutas/Boruvka.cpp.o
+
+.PHONY : Juego/Rutas/Boruvka.o
+
+# target to build an object file
+Juego/Rutas/Boruvka.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o
+.PHONY : Juego/Rutas/Boruvka.cpp.o
+
+Juego/Rutas/Boruvka.i: Juego/Rutas/Boruvka.cpp.i
+
+.PHONY : Juego/Rutas/Boruvka.i
+
+# target to preprocess a source file
+Juego/Rutas/Boruvka.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.i
+.PHONY : Juego/Rutas/Boruvka.cpp.i
+
+Juego/Rutas/Boruvka.s: Juego/Rutas/Boruvka.cpp.s
+
+.PHONY : Juego/Rutas/Boruvka.s
+
+# target to generate assembly for a file
+Juego/Rutas/Boruvka.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.s
+.PHONY : Juego/Rutas/Boruvka.cpp.s
+
 Juego/Rutas/Kruskal.o: Juego/Rutas/Kruskal.cpp.o
 
 .PHONY : Juego/Rutas/Kruskal.o
@@ -390,6 +417,9 @@ help:
 	@echo "... Juego/Mapa/Mapa.o"
 	@echo "... Juego/Mapa/Mapa.i"
 	@echo "... Juego/Mapa/Mapa.s"
+	@echo "... Juego/Rutas/Boruvka.o"
+	@echo "... Juego/Rutas/Boruvka.i"
+	@echo "... Juego/Rutas/Boruvka.s"
 	@echo "... Juego/Rutas/Kruskal.o"
 	@echo "... Juego/Rutas/Kruskal.i"
 	@echo "... Juego/Rutas/Kruskal.s"
