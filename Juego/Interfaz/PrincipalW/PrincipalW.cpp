@@ -21,6 +21,12 @@ void PrincipalW::principalW() {
 
     int posX=0, posY=0;
 
+    enum Directions {Down, Left, Right, Up};
+
+    sf::Vector2i source(1, Down);
+
+    int sourceX=28, sourceY=Down;
+
 
     sf::RenderWindow window(sf::VideoMode(644,644), "League of Gems");
     window.setPosition(sf::Vector2i(0,0));
@@ -30,21 +36,17 @@ void PrincipalW::principalW() {
     rect.setPosition(sf::Vector2f(posX,posY));
     rect.setFillColor(sf::Color::Green);
 
+
     sf::Texture gem;
     gem.loadFromFile("../Images/Gem/gem.png");
 
     sf::Sprite Sgem(gem);
     Sgem.setPosition(20*28, 0);
 
-    sf::Texture tempImage;
-    tempImage.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Soldier/soldier1.PNG")
-    sf::Sprite playerSprite(tempImage);
-
-    float velx=0, vely=0;
-    float x=10, y=10, movespeed = 0.1;
-    int sourceX = 0, sourceY = sDown;
-
-
+    sf::Texture tSoldier;
+    tSoldier.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Soldier/soldier1.PNG");
+    sf::Sprite playerSprite;
+    playerSprite.setTexture(tSoldier);
 
     while (window.isOpen()){
         sf::Event evento;
@@ -86,12 +88,9 @@ void PrincipalW::principalW() {
                             std::cout << "Obstacule" << std::endl;
                         }else
                         {
-                            sourceY=sRight;
-                            velx=movespeed;
 
-                            std::cout << m->getDato(posY,(posX/28)+1)<< std::endl;
-                            std::cout << posY/28 <<" "<< posX/28 << std::endl;
-                            rect.setPosition(sf::Vector2f(posX+=28, posY));
+                            source.y = Right;
+                            playerSprite.setPosition(sf::Vector2f(posX+=28, posY));
                         }
 
                     }
@@ -102,18 +101,11 @@ void PrincipalW::principalW() {
                         else if(m->getDato((posY/28),((posX/28)-1))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
-
-                            sourceY=sLeft;
-                            velx= -movespeed;
-
-                            std::cout << m->getDato(posY,(posX/28)+1)<< std::endl;
-                            std::cout << posY/28 <<" "<< posX/28 << std::endl;
-                            rect.setPosition(sf::Vector2f(posX-=28, posY));
+                            source.y = Left;
+                            playerSprite.setPosition(sf::Vector2f(posX-=28, posY));
                         }
                     }
-                    else{
-                        velx = 0;
-                    }
+
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)){
                         if((posY+28)==28*23){
                             std::cout<<"Out of Bounds"<<std::endl;
@@ -121,12 +113,8 @@ void PrincipalW::principalW() {
                         else if(m->getDato(((posY/28)+1),(posX/28))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
-                            sourceY=sDown;
-                            vely=movespeed;
-
-                            std::cout << m->getDato((posX/28),((posY/28)-1))<< std::endl;
-                            std::cout << posY <<" "<< posX << std::endl;
-                            rect.setPosition(sf::Vector2f(posX, posY+=28));
+                            source.y = Down;
+                            playerSprite.setPosition(sf::Vector2f(posX, posY+=28));
                         }
                     }
                     else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
@@ -136,60 +124,40 @@ void PrincipalW::principalW() {
                         else if(m->getDato(((posY/28)-1),(posX/28))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
-
-                            sourceY=sUp;
-                            vely= -movespeed;
-
-                            std::cout << m->getDato(posY,(posX/28)-1)<< std::endl;
-                            std::cout << posY <<" "<< posX << std::endl;
-                            rect.setPosition(sf::Vector2f(posX, posY-=28));
+                            source.y = Up;
+                            playerSprite.setPosition(sf::Vector2f(posX, posY-=28));
                         }
                     }
-                    else{
-                        vely=0;
-                    }
-
-                    x+=velx;
-                    y+=vely;
-
-                    if (velx!=0 || vely!=0){
-                        sourceX += (tempImage.getSize().y)/4;
-                    }else
-                        sourceX = 0;
-                    if(sourceX==tempImage.getSize().y)
-                        sourceX=0;
-
-                    window.clear();
-                    playerSprite.S
-
             }
 
         }
 
-        window.clear();
+
         for (int i = 0; i<23;i ++){
             for (int j = 0; j<23; j++){
                 if (m->getDato(j,i)==0){
-                    sf::Texture texture;
-                    texture.loadFromFile("../Images/Road/road.png");
-                    sf::Sprite sprite(texture);
-                    sprite.setPosition(i*28, j*28);
-                    window.draw(sprite);
+
                 }
                 else if(m->getDato(j,i)==1){
                     sf::Texture texture;
                     texture.loadFromFile("../Images/Bush/1.png");
-                    sf::Sprite sprite(texture);
-                    sprite.setPosition(i*28, j*28);
-                    window.draw(sprite);
+                    sf::Sprite spriteBush(texture);
+                    spriteBush.setPosition(i*28, j*28);
+                    window.draw(spriteBush);
                 }
             }
         }
 
+        source.x++;
+        if(source.x*28>= tSoldier.getSize().x){
+            source.x=0;
+        }
 
         window.draw(Sgem);
-        window.draw(rect);
+        playerSprite.setTextureRect(sf::IntRect(source.x*28, source.y*28,28,28));
+        window.draw(playerSprite);
         window.display();
+        window.clear(sf::Color(168, 192, 32));
     }
 
 }
