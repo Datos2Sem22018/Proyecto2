@@ -10,16 +10,21 @@ CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Mapa/Mapa.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Rutas/Dijkstra.h
 
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Rutas/Dijkstra.h
 
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.cpp
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.h
 
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o: ../Juego/Rutas/Boruvka.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o: ../Juego/Rutas/Boruvka.h
+
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.o: ../Juego/Rutas/Dijkstra.cpp
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.o: ../Juego/Rutas/Dijkstra.h
 
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.h

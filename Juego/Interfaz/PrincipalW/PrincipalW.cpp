@@ -52,7 +52,7 @@ void PrincipalW::principalW() {
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
 
-                        if (dijkstra->dijkstra(m->mapa, 0)) {
+                        if (dijkstra->dijkstra(m->mapa, (rect.getPosition().x) / 28)) {
                             rect.move(sf::Vector2f((sf::Mouse::getPosition().x) / 28, (sf::Mouse::getPosition().y-50) / 28));
                         } else {
                             std::cout << "No path" << std::endl;
