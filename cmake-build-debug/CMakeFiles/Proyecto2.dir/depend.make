@@ -18,6 +18,9 @@ CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/St
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.cpp
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.h
 
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o: ../Juego/Rutas/Boruvka.cpp
+CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o: ../Juego/Rutas/Boruvka.h
+
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o: ../Juego/Rutas/Kruskal.h
 
