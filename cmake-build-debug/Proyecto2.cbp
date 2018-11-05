@@ -120,6 +120,12 @@
 		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Rutas/Boruvka.h">
 			<Option target="Proyecto2"/>
 		</Unit>
+		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Rutas/BreadthFirstSearch.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Rutas/BreadthFirstSearch.h">
+			<Option target="Proyecto2"/>
+		</Unit>
 		<Unit filename="/home/zuckerberg/CLionProjects/Proyecto2/Juego/Rutas/Dijkstra.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>

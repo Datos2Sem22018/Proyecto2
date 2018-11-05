@@ -11,12 +11,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="c5c556c0-f3ec-4587-b93f-1ef2da088143" name="Default Changelist" comment="Se implementa Dijkstra">
+      <change afterPath="$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Juego/Rutas/Dijkstra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Juego/Rutas/Dijkstra.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Proyecto2" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Proyecto2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto2.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,13 +166,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrincipalW.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrincipalW.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+            <state relative-caret-position="339">
+              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BreadthFirstSearch.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BreadthFirstSearch.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.h">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Dijkstra.cpp" pinned="false" current-in-tab="false">
@@ -241,6 +259,8 @@
         <option value="$PROJECT_DIR$/Juego/Rutas/Dijkstra.h" />
         <option value="$PROJECT_DIR$/Juego/Rutas/Dijkstra.cpp" />
         <option value="$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp" />
+        <option value="$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.h" />
+        <option value="$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.cpp" />
       </list>
     </option>
   </component>
@@ -643,11 +663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541396663125</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Se implementa Dijkstra">
+      <created>1541397137576</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1541397137576</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80033000" />
+    <option name="totallyTimeSpent" value="82442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -658,8 +685,8 @@
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49848944" weight="0.32592592" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3298611" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" side_tool="true" weight="0.3298611" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924472" weight="0.23492064" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49773413" visible="true" weight="0.32910052" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49924472" visible="true" weight="0.23492064" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773413" weight="0.32910052" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26335672" />
@@ -739,11 +766,10 @@
     <MESSAGE value="Avance mucho con el tablero" />
     <MESSAGE value="Boruvka is ready, finally" />
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="Se implementa Dijkstra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se implementa Dijkstra" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Juego/Mapa/Obstaculo.cpp" />
-    <entry file="file://$PROJECT_DIR$/Juego/Mapa/Obstaculo.h" />
     <entry file="file://$PROJECT_DIR$/Juego/Aliado/Aliado.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1039,10 +1065,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Juego/Interfaz/PrincipalW/PrincipalW.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        <state relative-caret-position="339">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juego/Rutas/BreadthFirstSearch.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

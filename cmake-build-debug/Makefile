@@ -285,6 +285,33 @@ Juego/Rutas/Boruvka.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.s
 .PHONY : Juego/Rutas/Boruvka.cpp.s
 
+Juego/Rutas/BreadthFirstSearch.o: Juego/Rutas/BreadthFirstSearch.cpp.o
+
+.PHONY : Juego/Rutas/BreadthFirstSearch.o
+
+# target to build an object file
+Juego/Rutas/BreadthFirstSearch.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/BreadthFirstSearch.cpp.o
+.PHONY : Juego/Rutas/BreadthFirstSearch.cpp.o
+
+Juego/Rutas/BreadthFirstSearch.i: Juego/Rutas/BreadthFirstSearch.cpp.i
+
+.PHONY : Juego/Rutas/BreadthFirstSearch.i
+
+# target to preprocess a source file
+Juego/Rutas/BreadthFirstSearch.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/BreadthFirstSearch.cpp.i
+.PHONY : Juego/Rutas/BreadthFirstSearch.cpp.i
+
+Juego/Rutas/BreadthFirstSearch.s: Juego/Rutas/BreadthFirstSearch.cpp.s
+
+.PHONY : Juego/Rutas/BreadthFirstSearch.s
+
+# target to generate assembly for a file
+Juego/Rutas/BreadthFirstSearch.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/BreadthFirstSearch.cpp.s
+.PHONY : Juego/Rutas/BreadthFirstSearch.cpp.s
+
 Juego/Rutas/Dijkstra.o: Juego/Rutas/Dijkstra.cpp.o
 
 .PHONY : Juego/Rutas/Dijkstra.o
@@ -447,6 +474,9 @@ help:
 	@echo "... Juego/Rutas/Boruvka.o"
 	@echo "... Juego/Rutas/Boruvka.i"
 	@echo "... Juego/Rutas/Boruvka.s"
+	@echo "... Juego/Rutas/BreadthFirstSearch.o"
+	@echo "... Juego/Rutas/BreadthFirstSearch.i"
+	@echo "... Juego/Rutas/BreadthFirstSearch.s"
 	@echo "... Juego/Rutas/Dijkstra.o"
 	@echo "... Juego/Rutas/Dijkstra.i"
 	@echo "... Juego/Rutas/Dijkstra.s"
