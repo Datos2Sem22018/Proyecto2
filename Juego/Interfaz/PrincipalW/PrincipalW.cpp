@@ -13,6 +13,8 @@ void PrincipalW::principalW() {
     Mapa *m = new Mapa();
     m->imprimirMapa();
 
+    Dijkstra* dijkstra = new Dijkstra();
+
     int posX=0, posY=0;
     int posI=0, posJ=0;
 
@@ -25,7 +27,7 @@ void PrincipalW::principalW() {
     rect.setFillColor(sf::Color::Green);
 
     sf::Texture gem;
-    gem.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Gem/gem.png");
+    gem.loadFromFile("../Images/Gem/gem.png");
 
     sf::Sprite Sgem(gem);
     Sgem.setPosition(20*28, 0);
@@ -49,6 +51,12 @@ void PrincipalW::principalW() {
 
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
+
+                        if (dijkstra->dijkstra(m->mapa, (rect.getPosition().x) / 28)) {
+                            rect.move(sf::Vector2f((sf::Mouse::getPosition().x) / 28, (sf::Mouse::getPosition().y-50) / 28));
+                        } else {
+                            std::cout << "No path" << std::endl;
+                        }
                     }
                 case sf::Event::KeyPressed:
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
