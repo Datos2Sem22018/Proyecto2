@@ -7,18 +7,22 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
+#define sDown 0
+#define sLeft 0
+#define sRight 0
+#define sUp 0
+
 void PrincipalW::principalW() {
 
 
     Mapa *m = new Mapa();
-    m->imprimirMapa();
 
     Dijkstra* dijkstra = new Dijkstra();
 
     int posX=0, posY=0;
-    int posI=0, posJ=0;
 
-    sf::RenderWindow window(sf::VideoMode(672-28,672-28), "League of Gems");
+
+    sf::RenderWindow window(sf::VideoMode(644,644), "League of Gems");
     window.setPosition(sf::Vector2i(0,0));
 
     sf::RectangleShape rect;
@@ -31,6 +35,14 @@ void PrincipalW::principalW() {
 
     sf::Sprite Sgem(gem);
     Sgem.setPosition(20*28, 0);
+
+    sf::Texture tempImage;
+    tempImage.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Soldier/soldier1.PNG")
+    sf::Sprite playerSprite(tempImage);
+
+    float velx=0, vely=0;
+    float x=10, y=10, movespeed = 0.1;
+    int sourceX = 0, sourceY = sDown;
 
 
 
@@ -53,7 +65,13 @@ void PrincipalW::principalW() {
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
 
                         if (dijkstra->dijkstra(m->mapa, (rect.getPosition().x) / 28)) {
-                            rect.move(sf::Vector2f((sf::Mouse::getPosition().x) / 28, (sf::Mouse::getPosition().y-50) / 28));
+                            while ((posX/28) != ((sf::Mouse::getPosition().x)/28)){
+                                while((posY/28) != ((sf::Mouse::getPosition().y)/28)){
+                                    rect.setPosition(posX, posY+=28);
+                                }
+                                rect.setPosition(posX+=28, posY);
+                            }
+
                         } else {
                             std::cout << "No path" << std::endl;
                         }
@@ -68,23 +86,33 @@ void PrincipalW::principalW() {
                             std::cout << "Obstacule" << std::endl;
                         }else
                         {
+                            sourceY=sRight;
+                            velx=movespeed;
+
                             std::cout << m->getDato(posY,(posX/28)+1)<< std::endl;
                             std::cout << posY/28 <<" "<< posX/28 << std::endl;
                             rect.setPosition(sf::Vector2f(posX+=28, posY));
                         }
 
                     }
-                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
+                    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
                         if((posX-28)<0){
                             std::cout<<"Out of Bounds"<<std::endl;
                         }
                         else if(m->getDato((posY/28),((posX/28)-1))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
+
+                            sourceY=sLeft;
+                            velx= -movespeed;
+
                             std::cout << m->getDato(posY,(posX/28)+1)<< std::endl;
                             std::cout << posY/28 <<" "<< posX/28 << std::endl;
                             rect.setPosition(sf::Vector2f(posX-=28, posY));
                         }
+                    }
+                    else{
+                        velx = 0;
                     }
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)){
                         if((posY+28)==28*23){
@@ -93,23 +121,47 @@ void PrincipalW::principalW() {
                         else if(m->getDato(((posY/28)+1),(posX/28))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
+                            sourceY=sDown;
+                            vely=movespeed;
+
                             std::cout << m->getDato((posX/28),((posY/28)-1))<< std::endl;
                             std::cout << posY <<" "<< posX << std::endl;
                             rect.setPosition(sf::Vector2f(posX, posY+=28));
                         }
                     }
-                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
+                    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
                         if((posY-28)<0){
                             std::cout<<"Out of Bounds"<<std::endl;
                         }
                         else if(m->getDato(((posY/28)-1),(posX/28))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
+
+                            sourceY=sUp;
+                            vely= -movespeed;
+
                             std::cout << m->getDato(posY,(posX/28)-1)<< std::endl;
                             std::cout << posY <<" "<< posX << std::endl;
                             rect.setPosition(sf::Vector2f(posX, posY-=28));
                         }
                     }
+                    else{
+                        vely=0;
+                    }
+
+                    x+=velx;
+                    y+=vely;
+
+                    if (velx!=0 || vely!=0){
+                        sourceX += (tempImage.getSize().y)/4;
+                    }else
+                        sourceX = 0;
+                    if(sourceX==tempImage.getSize().y)
+                        sourceX=0;
+
+                    window.clear();
+                    playerSprite.S
+
             }
 
         }
