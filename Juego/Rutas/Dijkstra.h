@@ -10,12 +10,12 @@
 
 class Dijkstra {
 private:
-    const int V = 23;
+    static const int V = 23;
     int minDistance(int dist[], bool sptSet[]);
     int printSolution(int dist[], int n);
-    bool dijkstra(int graph[V][V], int src);
 public:
-    Dijkstra(int graph[V][V]);
+    Dijkstra() = default;
+    bool dijkstra(int graph[V][V], int src);
 };
 
 

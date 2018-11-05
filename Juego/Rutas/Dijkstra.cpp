@@ -1,9 +1,5 @@
 #include "Dijkstra.h"
 
-Dijkstra::Dijkstra(int graph[V][V]){
-
-}
-
 int Dijkstra::minDistance(int *dist, bool *sptSet) {
     int min = INT_MAX, min_index;
     for (int i = 0; i < V; ++i) {
@@ -21,7 +17,7 @@ int Dijkstra::printSolution(int *dist, int n) {
     }
 }
 
-bool Dijkstra::dijkstra(int graph[V][V], int src){
+bool Dijkstra::dijkstra(int (*graph)[V], int src){
     int dist[V];
     bool sptSet[V];
     for (int i = 0; i < V; ++i) {

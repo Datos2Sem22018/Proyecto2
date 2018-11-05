@@ -9,7 +9,6 @@
 class Mapa {
 private:
 
-    int mapa [23][23];
     int noHayCamino = 0;
     int camino=1;
     int obstaculo = 2;
@@ -19,6 +18,7 @@ private:
     int BaseEnemiga = 6;
 
 public:
+    int mapa [23][23];
     void hacerMapa();
     void imprimirMapa();
     int getDato(int, int);
