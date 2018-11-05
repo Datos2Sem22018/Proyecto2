@@ -9,6 +9,13 @@
 class Mapa {
 private:
 
+    int camino = 0;
+    int obstaculo = 1;
+    int aliado = 3;
+    int enemigo = 4;
+
+
+public:
     int mapa [23][23] = {
             {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6},
             {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6},
@@ -34,14 +41,6 @@ private:
             {5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
             {5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
     };
-    int camino = 0;
-    int obstaculo = 1;
-    int aliado = 3;
-    int enemigo = 4;
-
-
-public:
-
     void imprimirMapa();
     int getDato(int i, int j);
 

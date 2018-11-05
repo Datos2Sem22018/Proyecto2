@@ -5,6 +5,7 @@
 #ifndef PROYECTO2_PANTALLAP_H
 #define PROYECTO2_PANTALLAP_H
 #include "../../Rutas/Dijkstra.h"
+#include "../../Rutas/BreadthFirstSearch.h"
 
 
 class PrincipalW {

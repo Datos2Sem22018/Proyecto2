@@ -13,7 +13,8 @@ void PrincipalW::principalW() {
     Mapa *m = new Mapa();
     m->imprimirMapa();
 
-    Dijkstra* dijkstra = new Dijkstra();
+    auto* dijkstra = new Dijkstra();
+    auto* bFS = new BreadthFirstSearch();
 
     int posX=0, posY=0;
     int posI=0, posJ=0;
@@ -52,7 +53,7 @@ void PrincipalW::principalW() {
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
 
-                        if (dijkstra->dijkstra(m->mapa, (rect.getPosition().x) / 28)) {
+                        if (dijkstra->dijkstra(m->mapa, rect.getPosition().x / 28)) {
                             rect.move(sf::Vector2f((sf::Mouse::getPosition().x) / 28, (sf::Mouse::getPosition().y-50) / 28));
                         } else {
                             std::cout << "No path" << std::endl;
