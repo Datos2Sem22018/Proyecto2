@@ -114,6 +114,12 @@
 		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Mapa/Mapa.h">
 			<Option target="Proyecto2"/>
 		</Unit>
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Boruvka.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Boruvka.h">
+			<Option target="Proyecto2"/>
+		</Unit>
 		<Unit filename="/home/karla/CLionProjects/Proyecto2/Juego/Rutas/Kruskal.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>

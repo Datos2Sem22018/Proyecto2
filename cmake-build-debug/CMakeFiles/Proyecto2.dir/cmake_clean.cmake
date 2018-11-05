@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o"
   "CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o"
   "CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o"
   "../bin/Proyecto2.pdb"
   "../bin/Proyecto2"
 )
