@@ -29,7 +29,7 @@ void Enemigo::setVida(int vidaNueva) {
 void Enemigo::getAtaque() {
 
 }
-
+//karla
 void Enemigo::setAtaque() {
 
 }
