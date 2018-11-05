@@ -31,6 +31,7 @@ bool Dijkstra::dijkstra(int (*graph)[V], int src){
             if (!sptSet[i] && graph[u][i] && dist[u] != INT_MAX && dist[u]+graph[u][i] < dist[i]) {
                 dist[i] = dist[u] + graph[u][i];
             } else {
+                printSolution(dist, V);
                 return true;
             }
         }

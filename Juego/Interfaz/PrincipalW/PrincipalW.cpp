@@ -11,12 +11,12 @@ void PrincipalW::principalW() {
 
 
     Mapa *m = new Mapa();
-    m->hacerMapa();
     m->imprimirMapa();
 
     Dijkstra* dijkstra = new Dijkstra();
 
     int posX=0, posY=0;
+    int posI=0, posJ=0;
 
     sf::RenderWindow window(sf::VideoMode(672-28,672-28), "League of Gems");
     window.setPosition(sf::Vector2i(0,0));
@@ -52,7 +52,7 @@ void PrincipalW::principalW() {
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
 
-                        if (dijkstra->dijkstra(m->mapa, 0)) {
+                        if (dijkstra->dijkstra(m->mapa, (rect.getPosition().x) / 28)) {
                             rect.move(sf::Vector2f((sf::Mouse::getPosition().x) / 28, (sf::Mouse::getPosition().y-50) / 28));
                         } else {
                             std::cout << "No path" << std::endl;
@@ -61,28 +61,54 @@ void PrincipalW::principalW() {
                 case sf::Event::KeyPressed:
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
 
-                        if(m->getDato(posY,(posX/28)+1)==2)
-                            std::cout<<"Obstacule"<<std::endl;
-                        else
+                        if((posX+28)==28*23){
+                            std::cout<<"Out of Bounds"<<std::endl;
+                        }
+                        else if((m->getDato((posY/28),(posX/28)+1))==1) {
+                            std::cout << "Obstacule" << std::endl;
+                        }else
+                        {
+                            std::cout << m->getDato(posY,(posX/28)+1)<< std::endl;
+                            std::cout << posY/28 <<" "<< posX/28 << std::endl;
                             rect.setPosition(sf::Vector2f(posX+=28, posY));
+                        }
+
                     }
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
-                        if(m->getDato(posY, (posX/28)-1)==2)
-                            std::cout<<"Obstacule"<<std::endl;
-                        else
+                        if((posX-28)<0){
+                            std::cout<<"Out of Bounds"<<std::endl;
+                        }
+                        else if(m->getDato((posY/28),((posX/28)-1))==1){
+                            std::cout << "Obstacule" << std::endl;
+                        }else{
+                            std::cout << m->getDato(posY,(posX/28)+1)<< std::endl;
+                            std::cout << posY/28 <<" "<< posX/28 << std::endl;
                             rect.setPosition(sf::Vector2f(posX-=28, posY));
+                        }
                     }
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)){
-                        if(m->getDato((posY/28)+1,posX)==2)
-                            std::cout<<"Obstacule"<<std::endl;
-                        else
+                        if((posY+28)==28*23){
+                            std::cout<<"Out of Bounds"<<std::endl;
+                        }
+                        else if(m->getDato(((posY/28)+1),(posX/28))==1){
+                            std::cout << "Obstacule" << std::endl;
+                        }else{
+                            std::cout << m->getDato((posX/28),((posY/28)-1))<< std::endl;
+                            std::cout << posY <<" "<< posX << std::endl;
                             rect.setPosition(sf::Vector2f(posX, posY+=28));
+                        }
                     }
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
-                        if(m->getDato((posY/28)-1,posX)==2)
-                            std::cout<<"Obstacule"<<std::endl;
-                        else
+                        if((posY-28)<0){
+                            std::cout<<"Out of Bounds"<<std::endl;
+                        }
+                        else if(m->getDato(((posY/28)-1),(posX/28))==1){
+                            std::cout << "Obstacule" << std::endl;
+                        }else{
+                            std::cout << m->getDato(posY,(posX/28)-1)<< std::endl;
+                            std::cout << posY <<" "<< posX << std::endl;
                             rect.setPosition(sf::Vector2f(posX, posY-=28));
+                        }
                     }
             }
 
@@ -99,13 +125,6 @@ void PrincipalW::principalW() {
                     window.draw(sprite);
                 }
                 else if(m->getDato(j,i)==1){
-                    sf::RectangleShape c1;
-                    c1.setSize(sf::Vector2f(28,28));
-                    c1.setPosition(sf::Vector2f(i*28, j*28));
-                    c1.setFillColor(sf::Color::White);
-                    window.draw(c1);
-                }
-                else if(m->getDato(j,i)==2){
                     sf::Texture texture;
                     texture.loadFromFile("../Images/Bush/1.png");
                     sf::Sprite sprite(texture);
