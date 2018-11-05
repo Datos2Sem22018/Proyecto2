@@ -5,10 +5,6 @@
 #include <iostream>
 #include "Mapa.h"
 
-
-
-
-
 void Mapa::imprimirMapa() {
     for (int x = 0; x<23;x++){
         for (int y = 0; y<23;y++) {

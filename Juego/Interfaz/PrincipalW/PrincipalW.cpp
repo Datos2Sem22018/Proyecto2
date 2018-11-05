@@ -134,12 +134,10 @@ void PrincipalW::principalW() {
             }
         }
 
-
         window.draw(Sgem);
         window.draw(rect);
         window.display();
     }
-
 }
 
 void Ruta(){

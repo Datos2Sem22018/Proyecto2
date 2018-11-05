@@ -12,7 +12,6 @@
  */
 void StartW::startW() {
 
-
 //StartW Window
     //Create the Window
     sf::RenderWindow startW(sf::VideoMode(600,300), "League of Gems");
@@ -25,7 +24,6 @@ void StartW::startW() {
     {
         //
     }
-
     //Text
     sf::Text text;
     text.setFont(font);
@@ -41,8 +39,6 @@ void StartW::startW() {
 
     //Sprite
     sf::Sprite sprite(texture);
-
-
 
     //infinite loop that is active while the window is open
     while (startW.isOpen()){
@@ -62,13 +58,8 @@ void StartW::startW() {
                         PrincipalW::principalW();
                         break;
                     }
-
-
-
-
             }
         }
-
         startW.clear(sf::Color(244, 190, 7));
         startW.draw(sprite);
         startW.draw(text);
