@@ -285,6 +285,33 @@ Juego/Rutas/Boruvka.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.s
 .PHONY : Juego/Rutas/Boruvka.cpp.s
 
+Juego/Rutas/Dijkstra.o: Juego/Rutas/Dijkstra.cpp.o
+
+.PHONY : Juego/Rutas/Dijkstra.o
+
+# target to build an object file
+Juego/Rutas/Dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.o
+.PHONY : Juego/Rutas/Dijkstra.cpp.o
+
+Juego/Rutas/Dijkstra.i: Juego/Rutas/Dijkstra.cpp.i
+
+.PHONY : Juego/Rutas/Dijkstra.i
+
+# target to preprocess a source file
+Juego/Rutas/Dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.i
+.PHONY : Juego/Rutas/Dijkstra.cpp.i
+
+Juego/Rutas/Dijkstra.s: Juego/Rutas/Dijkstra.cpp.s
+
+.PHONY : Juego/Rutas/Dijkstra.s
+
+# target to generate assembly for a file
+Juego/Rutas/Dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.s
+.PHONY : Juego/Rutas/Dijkstra.cpp.s
+
 Juego/Rutas/Kruskal.o: Juego/Rutas/Kruskal.cpp.o
 
 .PHONY : Juego/Rutas/Kruskal.o
@@ -420,6 +447,9 @@ help:
 	@echo "... Juego/Rutas/Boruvka.o"
 	@echo "... Juego/Rutas/Boruvka.i"
 	@echo "... Juego/Rutas/Boruvka.s"
+	@echo "... Juego/Rutas/Dijkstra.o"
+	@echo "... Juego/Rutas/Dijkstra.i"
+	@echo "... Juego/Rutas/Dijkstra.s"
 	@echo "... Juego/Rutas/Kruskal.o"
 	@echo "... Juego/Rutas/Kruskal.i"
 	@echo "... Juego/Rutas/Kruskal.s"

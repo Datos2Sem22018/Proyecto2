@@ -120,6 +120,12 @@
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Boruvka.h">
 			<Option target="Proyecto2"/>
 		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Dijkstra.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Dijkstra.h">
+			<Option target="Proyecto2"/>
+		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Kruskal.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>

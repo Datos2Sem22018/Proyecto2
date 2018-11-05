@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Start/StartW.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Boruvka.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o"
+  "/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Dijkstra.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Kruskal.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Kruskal.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Prim.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Prim.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Rutas.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Rutas/Rutas.cpp.o"
