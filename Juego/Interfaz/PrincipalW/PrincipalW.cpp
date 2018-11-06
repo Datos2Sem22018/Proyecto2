@@ -31,12 +31,6 @@ void PrincipalW::principalW() {
     sf::RenderWindow window(sf::VideoMode(644,644), "League of Gems");
     window.setPosition(sf::Vector2i(0,0));
 
-    sf::RectangleShape rect;
-    rect.setSize(sf::Vector2f(28,28));
-    rect.setPosition(sf::Vector2f(posX,posY));
-    rect.setFillColor(sf::Color::Green);
-
-
     sf::Texture gem;
     gem.loadFromFile("../Images/Gem/gem.png");
 
@@ -44,9 +38,10 @@ void PrincipalW::principalW() {
     Sgem.setPosition(20*28, 0);
 
     sf::Texture tSoldier;
-    tSoldier.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Soldier/soldier1.PNG");
+    tSoldier.loadFromFile("../Images/Soldier/soldier1.PNG");
     sf::Sprite playerSprite;
     playerSprite.setTexture(tSoldier);
+    playerSprite.setPosition(0, 22*28);
 
     while (window.isOpen()){
         sf::Event evento;
@@ -66,14 +61,8 @@ void PrincipalW::principalW() {
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
 
-                        if (dijkstra->dijkstra(m->mapa, (rect.getPosition().x) / 28)) {
-                            while ((posX/28) != ((sf::Mouse::getPosition().x)/28)){
-                                while((posY/28) != ((sf::Mouse::getPosition().y)/28)){
-                                    rect.setPosition(posX, posY+=28);
-                                }
-                                rect.setPosition(posX+=28, posY);
-                            }
-
+                        if (dijkstra->dijkstra(m->mapa, (playerSprite.getPosition().y) / 28)) {
+                            playerSprite.move(sf::Vector2f(sf::Mouse::getPosition().x/28, sf::Mouse::getPosition().y/28));
                         } else {
                             std::cout << "No path" << std::endl;
                         }
