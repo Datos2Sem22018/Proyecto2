@@ -10,23 +10,20 @@ class Enemigo {
 private:
     int vida;
     int ataque;
-    int velocidad;
+    int posX;
+    int posY;
     //El Sprite de la animacion.
 
 public:
+    Enemigo();
     void morir();
     void atacar();
-    void caminar();
 
-
-    void getVida();
-    void setVida();
+    int getVida();
+    void setVida(int vidaNueva);
 
     void getAtaque();
     void setAtaque();
-
-
-
 
 };
 
