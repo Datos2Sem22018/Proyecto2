@@ -19,11 +19,11 @@ void PrincipalW::principalW() {
 
     Dijkstra* dijkstra = new Dijkstra();
 
-    int posX=0, posY=0;
+    int posX=0, posY=22*28;
 
     enum Directions {Down, Left, Right, Up};
-
     sf::Vector2i source(1, Down);
+    float frameCounter = 0, switchFrame = 100, frameSpeed = 500;
 
     int sourceX=28, sourceY=Down;
 
@@ -41,7 +41,9 @@ void PrincipalW::principalW() {
     tSoldier.loadFromFile("../Images/Soldier/soldier1.PNG");
     sf::Sprite playerSprite;
     playerSprite.setTexture(tSoldier);
-    playerSprite.setPosition(0, 22*28);
+    playerSprite.setPosition(posX, posY);
+
+    sf::Clock clock1;
 
     while (window.isOpen()){
         sf::Event evento;
@@ -67,6 +69,8 @@ void PrincipalW::principalW() {
                             std::cout << "No path" << std::endl;
                         }
                     }
+
+
                 case sf::Event::KeyPressed:
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
 
@@ -77,7 +81,14 @@ void PrincipalW::principalW() {
                             std::cout << "Obstacule" << std::endl;
                         }else
                         {
-
+                            frameCounter += frameSpeed*clock1.restart().asSeconds();
+                            if(frameCounter >= switchFrame){
+                                frameCounter = 0;
+                                source.x++;
+                                if(source.x*28>= tSoldier.getSize().x){
+                                    source.x=0;
+                                }
+                            }
                             source.y = Right;
                             playerSprite.setPosition(sf::Vector2f(posX+=28, posY));
                         }
@@ -90,6 +101,14 @@ void PrincipalW::principalW() {
                         else if(m->getDato((posY/28),((posX/28)-1))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
+                            frameCounter += frameSpeed*clock1.restart().asSeconds();
+                            if(frameCounter >= switchFrame){
+                                frameCounter = 0;
+                                source.x++;
+                                if(source.x*28>= tSoldier.getSize().x){
+                                    source.x=0;
+                                }
+                            }
                             source.y = Left;
                             playerSprite.setPosition(sf::Vector2f(posX-=28, posY));
                         }
@@ -102,6 +121,14 @@ void PrincipalW::principalW() {
                         else if(m->getDato(((posY/28)+1),(posX/28))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
+                            frameCounter += frameSpeed*clock1.restart().asSeconds();
+                            if(frameCounter >= switchFrame){
+                                frameCounter = 0;
+                                source.x++;
+                                if(source.x*28>= tSoldier.getSize().x){
+                                    source.x=0;
+                                }
+                            }
                             source.y = Down;
                             playerSprite.setPosition(sf::Vector2f(posX, posY+=28));
                         }
@@ -113,6 +140,14 @@ void PrincipalW::principalW() {
                         else if(m->getDato(((posY/28)-1),(posX/28))==1){
                             std::cout << "Obstacule" << std::endl;
                         }else{
+                            frameCounter += frameSpeed*clock1.restart().asSeconds();
+                            if(frameCounter >= switchFrame){
+                                frameCounter = 0;
+                                source.x++;
+                                if(source.x*28>= tSoldier.getSize().x){
+                                    source.x=0;
+                                }
+                            }
                             source.y = Up;
                             playerSprite.setPosition(sf::Vector2f(posX, posY-=28));
                         }
@@ -137,10 +172,11 @@ void PrincipalW::principalW() {
             }
         }
 
-        source.x++;
-        if(source.x*28>= tSoldier.getSize().x){
-            source.x=0;
-        }
+
+
+
+
+
 
         window.draw(Sgem);
         playerSprite.setTextureRect(sf::IntRect(source.x*28, source.y*28,28,28));
