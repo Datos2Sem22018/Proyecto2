@@ -4,6 +4,10 @@
 
 #include "Enemigo.h"
 
+Enemigo::Enemigo() {
+    this->ataque = 5;
+    this->vida = 100;
+}
 void Enemigo::morir() {
 
 }
@@ -12,22 +16,20 @@ void Enemigo::atacar() {
 
 }
 
-void Enemigo::caminar() {
+int Enemigo::getVida() {
+    return this->vida;
 
 }
 
-void Enemigo::getVida() {
-
-}
-
-void Enemigo::setVida() {
+void Enemigo::setVida(int vidaNueva) {
+    this->vida = vidaNueva;
 
 }
 
 void Enemigo::getAtaque() {
 
 }
-
+//karla
 void Enemigo::setAtaque() {
 
 }

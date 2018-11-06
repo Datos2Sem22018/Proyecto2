@@ -22,7 +22,6 @@ void PrincipalW::principalW() {
     int posX=0, posY=0;
 
     enum Directions {Down, Left, Right, Up};
-    float frameCounter=0, switchFrame=100, frameSpeed=500;
 
     sf::Vector2i source(1, Down);
 
@@ -32,12 +31,6 @@ void PrincipalW::principalW() {
     sf::RenderWindow window(sf::VideoMode(644,644), "League of Gems");
     window.setPosition(sf::Vector2i(0,0));
 
-    sf::RectangleShape rect;
-    rect.setSize(sf::Vector2f(28,28));
-    rect.setPosition(sf::Vector2f(posX,posY));
-    rect.setFillColor(sf::Color::Green);
-
-
     sf::Texture gem;
     gem.loadFromFile("../Images/Gem/gem.png");
 
@@ -45,10 +38,10 @@ void PrincipalW::principalW() {
     Sgem.setPosition(20*28, 0);
 
     sf::Texture tSoldier;
-    tSoldier.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Soldier/soldier1.PNG");
+    tSoldier.loadFromFile("../Images/Soldier/soldier1.PNG");
     sf::Sprite playerSprite;
     playerSprite.setTexture(tSoldier);
-    sf::Clock clock1;
+    playerSprite.setPosition(0, 22*28);
 
     while (window.isOpen()){
         sf::Event evento;
@@ -68,14 +61,8 @@ void PrincipalW::principalW() {
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
 
-                        if (dijkstra->dijkstra(m->mapa, (rect.getPosition().x) / 28)) {
-                            while ((posX/28) != ((sf::Mouse::getPosition().x)/28)){
-                                while((posY/28) != ((sf::Mouse::getPosition().y)/28)){
-                                    rect.setPosition(posX, posY+=28);
-                                }
-                                rect.setPosition(posX+=28, posY);
-                            }
-
+                        if (dijkstra->dijkstra(m->mapa, (playerSprite.getPosition().y) / 28)) {
+                            playerSprite.move(sf::Vector2f(sf::Mouse::getPosition().x/28, sf::Mouse::getPosition().y/28));
                         } else {
                             std::cout << "No path" << std::endl;
                         }
@@ -92,14 +79,6 @@ void PrincipalW::principalW() {
                         {
 
                             source.y = Right;
-                            frameCounter += frameSpeed*clock1.restart().asSeconds();
-                            if(frameCounter >= switchFrame){
-                                frameCounter=0;
-                                source.x++;
-                                if(source.x*28>= tSoldier.getSize().x){
-                                    source.x=0;
-                                }
-                            }
                             playerSprite.setPosition(sf::Vector2f(posX+=28, posY));
                         }
 
@@ -112,14 +91,6 @@ void PrincipalW::principalW() {
                             std::cout << "Obstacule" << std::endl;
                         }else{
                             source.y = Left;
-                            frameCounter += frameSpeed*clock1.restart().asSeconds();
-                            if(frameCounter >= switchFrame){
-                                frameCounter=0;
-                                source.x++;
-                                if(source.x*28>= tSoldier.getSize().x){
-                                    source.x=0;
-                                }
-                            }
                             playerSprite.setPosition(sf::Vector2f(posX-=28, posY));
                         }
                     }
@@ -132,14 +103,6 @@ void PrincipalW::principalW() {
                             std::cout << "Obstacule" << std::endl;
                         }else{
                             source.y = Down;
-                            frameCounter += frameSpeed*clock1.restart().asSeconds();
-                            if(frameCounter >= switchFrame){
-                                frameCounter=0;
-                                source.x++;
-                                if(source.x*28>= tSoldier.getSize().x){
-                                    source.x=0;
-                                }
-                            }
                             playerSprite.setPosition(sf::Vector2f(posX, posY+=28));
                         }
                     }
@@ -151,14 +114,6 @@ void PrincipalW::principalW() {
                             std::cout << "Obstacule" << std::endl;
                         }else{
                             source.y = Up;
-                            frameCounter += frameSpeed*clock1.restart().asSeconds();
-                            if(frameCounter >= switchFrame){
-                                frameCounter=0;
-                                source.x++;
-                                if(source.x*28>= tSoldier.getSize().x){
-                                    source.x=0;
-                                }
-                            }
                             playerSprite.setPosition(sf::Vector2f(posX, posY-=28));
                         }
                     }
@@ -182,7 +137,10 @@ void PrincipalW::principalW() {
             }
         }
 
-
+        source.x++;
+        if(source.x*28>= tSoldier.getSize().x){
+            source.x=0;
+        }
 
         window.draw(Sgem);
         playerSprite.setTextureRect(sf::IntRect(source.x*28, source.y*28,28,28));
