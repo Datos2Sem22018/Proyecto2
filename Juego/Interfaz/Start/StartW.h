@@ -6,9 +6,17 @@
 #define PROYECTO2_INICIO_H
 
 
+#include <string>
+
 class StartW {
+private:
+
+
+
 public:
+
     static void startW();
+
 
 };
 

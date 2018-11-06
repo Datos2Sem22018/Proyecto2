@@ -4,6 +4,7 @@
 
 #include "PrincipalW.h"
 #include "../../Mapa/Mapa.h"
+#include "../../Aliado/Aliado.h"
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
@@ -42,6 +43,8 @@ void PrincipalW::principalW() {
     sf::Sprite playerSprite;
     playerSprite.setTexture(tSoldier);
     playerSprite.setPosition(posX, posY);
+
+    Aliado *a1 = new Aliado(10,10);
 
     sf::Clock clock1;
 
@@ -198,6 +201,7 @@ void PrincipalW::principalW() {
         window.draw(Sgem);
         playerSprite.setTextureRect(sf::IntRect(source.x*28, source.y*28,28,28));
         window.draw(playerSprite);
+        window.draw(a1->getPlayerSprite());
         window.display();
         window.clear(sf::Color(168, 192, 32));
     }

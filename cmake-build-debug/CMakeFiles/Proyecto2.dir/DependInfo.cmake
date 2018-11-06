@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mariano/CLionProjects/Proyecto2/Juego/Aliado/Aliado.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Enemigo/Enemigo.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o"
+  "/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/FirstStage/FirstStageW.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/PrincipalW/PrincipalW.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Start/StartW.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o"
   "/home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp" "/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o"

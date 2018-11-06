@@ -11,15 +11,17 @@
 
 class Aliado {
 private:
-    int vida;
-    int ataque;
-    int velocidad;
+    int health;
+    int attack;
+    float moveSpeed;
     int posX;
     int posY;
     sf::Vector2i* moveVector;
-    // el Sprite Animation
+    sf::Texture tSoldier;
+    sf::Sprite playerSprite;
+
 public:
-    Aliado();
+    Aliado(int posX, int posY);
     void morir();
     void atacar(Mapa* mapa, Enemigo* enemigo);
     void caminar();
@@ -27,6 +29,8 @@ public:
     void setVida(int Vida);
     int getAtaque();
     void setAtaque(int Ataque);
+
+    const sf::Sprite &getPlayerSprite() const;
 };
 
 

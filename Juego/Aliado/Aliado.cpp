@@ -5,10 +5,16 @@
 #include "Aliado.h"
 #include "../Enemigo/Enemigo.h"
 
-Aliado::Aliado() {
-    this->ataque = 10;
-    this->vida = 100;
-    this->velocidad = 110;
+Aliado::Aliado(int posX, int posY) {
+    this->attack = 10;
+    this->health = 100;
+    this->moveSpeed = 0.2;
+    this->posX=posX;
+    this->posY=posY;
+
+
+    tSoldier.loadFromFile("../Images/Soldier/soldier1.PNG");
+    playerSprite.setTexture(tSoldier);
 }
 
 void Aliado::morir() {
@@ -25,19 +31,8 @@ void Aliado::atacar(Mapa *mapa, Enemigo *enemigo) {
     }
 }
 
-void Aliado::caminar() {
-
-}
-int Aliado::getVida() {
-    return vida;
+const sf::Sprite &Aliado::getPlayerSprite() const {
+    return playerSprite;
 }
 
-void Aliado::setVida(int Vida) {
-    this->vida = Vida;
-}
-int Aliado::getAtaque() {
-    return ataque;
-}
-void Aliado::setAtaque(int Ataque) {
-    this->ataque = Ataque;
-}
+

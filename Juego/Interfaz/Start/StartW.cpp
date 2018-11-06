@@ -4,6 +4,7 @@
 
 #include "StartW.h"
 #include "../PrincipalW/PrincipalW.h"
+#include "../FirstStage/FirstStageW.h"
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
@@ -11,6 +12,8 @@
  * Method that creates the star window
  */
 void StartW::startW() {
+
+
 
 //StartW Window
     //Create the Window
@@ -41,7 +44,7 @@ void StartW::startW() {
     textSelectNivel.setColor(sf::Color::Black);
     textSelectNivel.setPosition(250,80);
     textSelectNivel.setCharacterSize(20);
-    std::string level;
+
 
     //Easy
     sf::Text textEasy;
@@ -89,18 +92,31 @@ void StartW::startW() {
                     if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
                         int mouseXpos = sf::Mouse::getPosition(startW).x;
                         int mouseYpos = sf::Mouse::getPosition(startW).y;
+
                         if(280<mouseXpos && mouseXpos<320 && 110<mouseYpos && mouseYpos<130){
                             std::cout<<"Easy"<<std::endl;
-                            level="Easy";
+                            startW.close();
+                            FirstStageW::firstStage(1);
+                            break;
+
                         }
                         else if(280<mouseXpos && mouseXpos<340 && 140<mouseYpos && mouseYpos<160){
                             std::cout<<"Medium"<<std::endl;
-                            level="Medium";
+                            startW.close();
+                            FirstStageW::firstStage(2);
+                            break;
+
                         }
                         else if(280<mouseXpos && mouseXpos<320 && 170<mouseYpos && mouseYpos<190){
                             std::cout<<"Hard"<<std::endl;
-                            level="Hard";
+                            startW.close();
+                            FirstStageW::firstStage(3);
+                            break;
+
                         }
+
+
+
                     }
 
 
@@ -119,3 +135,5 @@ void StartW::startW() {
     }
 
 }
+
+

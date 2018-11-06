@@ -177,6 +177,33 @@ Juego/Enemigo/Enemigo.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.s
 .PHONY : Juego/Enemigo/Enemigo.cpp.s
 
+Juego/Interfaz/FirstStage/FirstStageW.o: Juego/Interfaz/FirstStage/FirstStageW.cpp.o
+
+.PHONY : Juego/Interfaz/FirstStage/FirstStageW.o
+
+# target to build an object file
+Juego/Interfaz/FirstStage/FirstStageW.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o
+.PHONY : Juego/Interfaz/FirstStage/FirstStageW.cpp.o
+
+Juego/Interfaz/FirstStage/FirstStageW.i: Juego/Interfaz/FirstStage/FirstStageW.cpp.i
+
+.PHONY : Juego/Interfaz/FirstStage/FirstStageW.i
+
+# target to preprocess a source file
+Juego/Interfaz/FirstStage/FirstStageW.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.i
+.PHONY : Juego/Interfaz/FirstStage/FirstStageW.cpp.i
+
+Juego/Interfaz/FirstStage/FirstStageW.s: Juego/Interfaz/FirstStage/FirstStageW.cpp.s
+
+.PHONY : Juego/Interfaz/FirstStage/FirstStageW.s
+
+# target to generate assembly for a file
+Juego/Interfaz/FirstStage/FirstStageW.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.s
+.PHONY : Juego/Interfaz/FirstStage/FirstStageW.cpp.s
+
 Juego/Interfaz/PrincipalW/PrincipalW.o: Juego/Interfaz/PrincipalW/PrincipalW.cpp.o
 
 .PHONY : Juego/Interfaz/PrincipalW/PrincipalW.o
@@ -462,6 +489,9 @@ help:
 	@echo "... Juego/Enemigo/Enemigo.o"
 	@echo "... Juego/Enemigo/Enemigo.i"
 	@echo "... Juego/Enemigo/Enemigo.s"
+	@echo "... Juego/Interfaz/FirstStage/FirstStageW.o"
+	@echo "... Juego/Interfaz/FirstStage/FirstStageW.i"
+	@echo "... Juego/Interfaz/FirstStage/FirstStageW.s"
 	@echo "... Juego/Interfaz/PrincipalW/PrincipalW.o"
 	@echo "... Juego/Interfaz/PrincipalW/PrincipalW.i"
 	@echo "... Juego/Interfaz/PrincipalW/PrincipalW.s"
