@@ -54,17 +54,19 @@ void PrincipalW::principalW() {
                     break;
                 case sf::Event::MouseButtonPressed:
                     if (evento.MouseButtonPressed) {
-                        std::string x = std::to_string(sf::Mouse::getPosition().x);
-                        std::string y = std::to_string(sf::Mouse::getPosition().y);
+                        std::string x = std::to_string(sf::Mouse::getPosition(window).x);
+                        std::string y = std::to_string(sf::Mouse::getPosition(window).y);
 
-                        std::string i = std::to_string((sf::Mouse::getPosition().x) / 28);
-                        std::string j = std::to_string((sf::Mouse::getPosition().y-50) / 28);
+                        std::string i = std::to_string((sf::Mouse::getPosition(window).x) / 28);
+                        std::string j = std::to_string((sf::Mouse::getPosition(window).y) / 28);
 
                         std::cout << "pos en x: " << x << ", pos en y: " << y << std::endl;
                         std::cout << "pos en i: " << i << ", pos en j: " << j << std::endl << std::endl;
 
+                        //playerSprite.setPosition(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y);
+
                         if (dijkstra->dijkstra(m->mapa, (playerSprite.getPosition().y) / 28)) {
-                            playerSprite.move(sf::Vector2f(sf::Mouse::getPosition().x/28, sf::Mouse::getPosition().y/28));
+                            playerSprite.move(sf::Vector2f(sf::Mouse::getPosition(window).x/28, sf::Mouse::getPosition(window).y/28));
                         } else {
                             std::cout << "No path" << std::endl;
                         }
@@ -79,6 +81,8 @@ void PrincipalW::principalW() {
                         }
                         else if((m->getDato((posY/28),(posX/28)+1))==1) {
                             std::cout << "Obstacule" << std::endl;
+                        }else if((m->getDato((posY/28),(posX/28)+1))==4){
+                            std::cout << "Attacking to the Right"<< std::endl;
                         }else
                         {
                             frameCounter += frameSpeed*clock1.restart().asSeconds();
@@ -100,6 +104,8 @@ void PrincipalW::principalW() {
                         }
                         else if(m->getDato((posY/28),((posX/28)-1))==1){
                             std::cout << "Obstacule" << std::endl;
+                        }else if(m->getDato((posY/28),((posX/28)-1))==4){
+                            std::cout << "Attacking to the Left"<< std::endl;
                         }else{
                             frameCounter += frameSpeed*clock1.restart().asSeconds();
                             if(frameCounter >= switchFrame){
@@ -120,6 +126,8 @@ void PrincipalW::principalW() {
                         }
                         else if(m->getDato(((posY/28)+1),(posX/28))==1){
                             std::cout << "Obstacule" << std::endl;
+                        }else if(m->getDato(((posY/28)+1),(posX/28))==4){
+                            std::cout << "Attacking to Down"<< std::endl;
                         }else{
                             frameCounter += frameSpeed*clock1.restart().asSeconds();
                             if(frameCounter >= switchFrame){
@@ -139,27 +147,36 @@ void PrincipalW::principalW() {
                         }
                         else if(m->getDato(((posY/28)-1),(posX/28))==1){
                             std::cout << "Obstacule" << std::endl;
+                        }else if(m->getDato(((posY/28)-1),(posX/28))==4){
+                            std::cout << "Attacking to Up"<< std::endl;
                         }else{
-                            frameCounter += frameSpeed*clock1.restart().asSeconds();
-                            if(frameCounter >= switchFrame){
-                                frameCounter = 0;
-                                source.x++;
-                                if(source.x*28>= tSoldier.getSize().x){
-                                    source.x=0;
+                                frameCounter += frameSpeed*clock1.restart().asSeconds();
+                                if(frameCounter >= switchFrame){
+                                    frameCounter = 0;
+                                    source.x++;
+                                    if(source.x*28>= tSoldier.getSize().x){
+                                        source.x=0;
+                                    }
                                 }
+                                source.y = Up;
+                                playerSprite.setPosition(sf::Vector2f(posX, posY-=28));
                             }
-                            source.y = Up;
-                            playerSprite.setPosition(sf::Vector2f(posX, posY-=28));
                         }
                     }
-            }
+
 
         }
 
 
         for (int i = 0; i<23;i ++){
             for (int j = 0; j<23; j++){
-                if (m->getDato(j,i)==0){
+                if (m->getDato(j,i)==4){
+                    sf::RectangleShape rectEnemy;
+                    rectEnemy.setFillColor(sf::Color::Green);
+                    rectEnemy.setSize(sf::Vector2f(28,28));
+                    rectEnemy.setPosition(i*28, j*28);
+                    window.draw(rectEnemy);
+
 
                 }
                 else if(m->getDato(j,i)==1){
@@ -185,8 +202,8 @@ void PrincipalW::principalW() {
         window.clear(sf::Color(168, 192, 32));
     }
 
-}
 
+}
 void Ruta(){
 
 
