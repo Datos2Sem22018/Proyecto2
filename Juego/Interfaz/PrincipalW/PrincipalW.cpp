@@ -44,7 +44,7 @@ void PrincipalW::principalW() {
     Sgem.setPosition(20*28, 0);
 
     sf::Texture tSoldier;
-    tSoldier.loadFromFile("/home/mariano/CLionProjects/Proyecto2/Images/Soldier/soldier1.PNG");
+    tSoldier.loadFromFile("../Images/Soldier/soldier1.PNG");
     sf::Sprite playerSprite;
     playerSprite.setTexture(tSoldier);
 

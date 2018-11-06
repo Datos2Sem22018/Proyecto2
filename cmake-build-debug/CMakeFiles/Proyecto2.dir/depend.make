@@ -3,6 +3,8 @@
 
 CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o: ../Juego/Aliado/Aliado.cpp
 CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o: ../Juego/Aliado/Aliado.h
+CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o: ../Juego/Enemigo/Enemigo.h
+CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o: ../Juego/Mapa/Mapa.h
 
 CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.cpp
 CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.h
