@@ -18,7 +18,7 @@ void PrincipalW::principalW() {
 
     Mapa *m = new Mapa();
 
-    Dijkstra* dijkstra = new Dijkstra();
+
 
     int posX=0, posY=22*28;
 
@@ -68,11 +68,7 @@ void PrincipalW::principalW() {
 
                         //playerSprite.setPosition(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y);
 
-                        if (dijkstra->dijkstra(m->mapa, (playerSprite.getPosition().y) / 28)) {
-                            playerSprite.move(sf::Vector2f(sf::Mouse::getPosition(window).x/28, sf::Mouse::getPosition(window).y/28));
-                        } else {
-                            std::cout << "No path" << std::endl;
-                        }
+
                     }
 
 

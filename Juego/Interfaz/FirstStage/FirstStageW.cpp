@@ -12,6 +12,7 @@
 #include "FirstStageW.h"
 #include "../../Aliado/Aliado.h"
 #include "../../LikedList/LinkedList.h"
+#include "../../Rutas/AStar.h"
 
 
 int mapa1 [23][23] = {
@@ -40,15 +41,7 @@ int mapa1 [23][23] = {
 {5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 };
 int grid[23][23];
-for(int i = 0; i < 23; i ++){
-    for(int j = 0; j < 23; j ++){
-        if(mapa1[i][j] == 0){
-            grid[i][j] = 1;
-        }else{
-            grid[i][j] = 0;
-        }
-    }
-}
+
 
 void FirstStageW::firstStage(int level) {
 
@@ -88,24 +81,33 @@ void FirstStageW::firstStage(int level) {
                     {
                         mouseXpos=(sf::Mouse::getPosition(firstStage).x)/28;
                         mouseYpos=(sf::Mouse::getPosition(firstStage).y)/28;
+
+                        for(int i = 0; i < 23; i ++){
+                            for(int j = 0; j < 23; j ++){
+                                if(mapa1[i][j] == 0){
+                                    grid[i][j] = 1;
+                                }else{
+                                    grid[i][j] = 0;
+                                }
+                            }
+                        }
+                        int playerX = a1->getPlayerSprite().getPosition().x;
+                        int playerY = a1->getPlayerSprite().getPosition().y;
+                        AStar aStar;
+                        aStar.Star(playerX, playerY, mouseXpos, mouseYpos, grid);
+
                         if(mapa1[mouseXpos][mouseYpos]==1){
                             std::cout<< "Can't move to: " <<mouseXpos <<", "<<mouseYpos<<std::endl;
                         }else{
                             std::cout<<"From this position: "<<a1->getPlayerSprite().getPosition().x<<", "<<a1->getPlayerSprite().getPosition().y<<" to: ";
                             std::cout<< mouseXpos <<", "<<mouseYpos<<std::endl;
 
-                            LinkedList<sf::Vector2f> lv;
-                            lv.add(sf::Vector2f(0*28,22*28));
-                            lv.add(sf::Vector2f(1*28,22*28));
-                            lv.add(sf::Vector2f(2*28,22*28));
-                            lv.add(sf::Vector2f(3*28,22*28));
-                            lv.add(sf::Vector2f(3*28,21*28));
 
 
-                            for(int a=0; a<lv.size;a++)
+                            for(int a=0; a<lvA.size;a++)
                             {
 
-                                if(a1->getPlayerSprite().getPosition().x<lv.getNode(a)->data.x){
+                                if(a1->getPlayerSprite().getPosition().x<lvA.getNode(a)->data.x){
                                     for(int a=0; a<28;a++){
                                         sf::sleep(sf::milliseconds(5));
                                         a1->getPlayerSprite().move(1.0f,0.0f);
@@ -138,7 +140,7 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.clear(sf::Color(168, 192, 32));
                                     }
                                 }
-                                if(a1->getPlayerSprite().getPosition().x>lv.getNode(a)->data.x){
+                                if(a1->getPlayerSprite().getPosition().x>lvA.getNode(a)->data.x){
                                     for(int a=0; a<28;a++){
                                         sf::sleep(sf::milliseconds(5));
                                         a1->getPlayerSprite().move(-1.0f,0.0f);
@@ -171,7 +173,7 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.clear(sf::Color(168, 192, 32));
                                     }
                                 }
-                                if(a1->getPlayerSprite().getPosition().y<lv.getNode(a)->data.y){
+                                if(a1->getPlayerSprite().getPosition().y<lvA.getNode(a)->data.y){
                                     for(int a=0; a<28;a++){
                                         sf::sleep(sf::milliseconds(5));
                                         a1->getPlayerSprite().move(0.0f,1.0f);
@@ -204,7 +206,7 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.clear(sf::Color(168, 192, 32));
                                     }
                                 }
-                                if(a1->getPlayerSprite().getPosition().x>lv.getNode(a)->data.x){
+                                if(a1->getPlayerSprite().getPosition().x>lvA.getNode(a)->data.x){
                                     for(int a=0; a<28;a++){
                                         sf::sleep(sf::milliseconds(5));
                                         a1->getPlayerSprite().move(0.0f,-1.0f);
