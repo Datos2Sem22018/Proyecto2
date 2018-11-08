@@ -4,7 +4,7 @@
 #include<vector>
 #include<set>
 #include "AStar.h"
-#define num 5
+#define num 23
 using namespace std;
 
 //--------Astar--------

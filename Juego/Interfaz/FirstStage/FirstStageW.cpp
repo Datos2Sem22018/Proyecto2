@@ -49,11 +49,11 @@ void FirstStageW::firstStage(int level) {
     int mouseYpos;
 
     if (level == 1){
-        std::cout<<"You are selected Easy Game"<<std::endl;
+        std::cout<<"You selected Easy Game"<<std::endl;
     }else if (level == 2){
-        std::cout<<"You are selected Medium Game"<<std::endl;
+        std::cout<<"You selected Medium Game"<<std::endl;
     }else{
-        std::cout<<"You are selected Hard Game"<<std::endl;
+        std::cout<<"You selected Hard Game"<<std::endl;
     }
 
     sf::Texture gem;

@@ -7,7 +7,7 @@ using namespace std;
 #define PROYECTO2_ASTAR_H
 
 
-#define num 5
+#define num 23
 
 class AStar {
     typedef pair<float,pair<int,int>> Ppair;

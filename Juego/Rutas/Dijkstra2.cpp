@@ -2,14 +2,14 @@
 #include<vector>
 using namespace std;
 #include "Dijkstra2.h"
-#define num 5
-//--------dijkstra--------
-vector<pair<int,int>> pathD;        //Shortest pathD
-bool sptSet[num][num];      //explored cells
+#define num 23
+
+vector<pair<int,int>> pathD;
+bool sptSet[num][num];
 
 Dijkstra2::Dijkstra2() {}
 
-void Dijkstra2::findmin(float (*dist)[5], int &min_x, int &min_y) {
+void Dijkstra2::findmin(float (*dist)[num], int &min_x, int &min_y) {
     float mini=FLT_MAX;
     for(int i=0;i<num;i++)
         for(int j=0;j<num;j++)
@@ -20,7 +20,7 @@ void Dijkstra2::findmin(float (*dist)[5], int &min_x, int &min_y) {
             }
 }
 
-void Dijkstra2::findpath(pair<int, int> (*previous)[5], float (*dist)[5], int dest_x, int dest_y, int source_x, int source_y) {
+void Dijkstra2::findpath(pair<int, int> (*previous)[num], float (*dist)[num], int dest_x, int dest_y, int source_x, int source_y) {
     cout<<"\nLength of Dijkstra path is: "<<dist[dest_x][dest_y]<<endl;
     while(previous[dest_x][dest_y].first!=source_x || previous[dest_x][dest_y].second!=source_y){        // both simultaneously equal to source coordinates
         cout<<"\n("<<previous[dest_x][dest_y].first<<","<<previous[dest_x][dest_y].second<<") ";
@@ -31,7 +31,7 @@ void Dijkstra2::findpath(pair<int, int> (*previous)[5], float (*dist)[5], int de
     }
 }
 
-void Dijkstra2::dijkstra(int source_x, int source_y, int dest_x, int dest_y, int (*grid)[5]) {
+void Dijkstra2::dijkstra(int source_x, int source_y, int dest_x, int dest_y, int (*grid)[num]) {
     pair<int,int> previous[num][num];
     float dist[num][num];
     for(int i=0;i<num;i++)

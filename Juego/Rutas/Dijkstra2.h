@@ -8,7 +8,7 @@ using namespace std;
 #ifndef PROYECTO2_DIJKSTRA2_H
 #define PROYECTO2_DIJKSTRA2_H
 
-#define num 5
+#define num 23
 
 class Dijkstra2 {
     void findmin(float dist[num][num],int& min_x,int& min_y);
@@ -22,3 +22,18 @@ public:
 
 
 #endif //PROYECTO2_DIJKSTRA2_H
+
+/**
+#include <iostream>
+#include "Dijkstra2.h"
+#define num 5
+int main(){
+    //int grid[num][num];
+    int grid[num][num] = {{0, 1, 0, 0, 1},
+                          {1, 1, 0, 1, 1},
+                          {1, 0, 1, 1, 0},
+                          {1, 1, 1, 0, 0},
+                          {1, 1, 0, 0, 0}};
+    Dijkstra2* a = new Dijkstra2();
+    a->dijkstra(4, 0, 0, 1, grid);
+}**/
