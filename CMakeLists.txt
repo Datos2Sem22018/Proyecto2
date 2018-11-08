@@ -9,7 +9,7 @@ set(SOURCE_FILES main.cpp
         Juego/Interfaz/PrincipalW/PrincipalW.cpp Juego/Interfaz/PrincipalW/PrincipalW.h
         Juego/Rutas/Rutas.cpp Juego/Rutas/Rutas.h
         Juego/Interfaz/Start/StartW.cpp Juego/Interfaz/Start/StartW.h
-        Juego/Mapa/Mapa.cpp Juego/Mapa/Mapa.h Juego/Rutas/Kruskal.cpp Juego/Rutas/Kruskal.h Juego/Rutas/Prim.cpp Juego/Rutas/Prim.h Juego/Rutas/Boruvka.cpp Juego/Rutas/Boruvka.h Juego/Rutas/Dijkstra.cpp Juego/Rutas/Dijkstra.h Juego/Rutas/BreadthFirstSearch.cpp Juego/Rutas/BreadthFirstSearch.h Juego/Interfaz/FirstStage/FirstStageW.cpp Juego/Interfaz/FirstStage/FirstStageW.h Juego/LikedList/LinkedList.h Juego/LikedList/Node.h)
+        Juego/Mapa/Mapa.cpp Juego/Mapa/Mapa.h Juego/Rutas/Kruskal.cpp Juego/Rutas/Kruskal.h Juego/Rutas/Prim.cpp Juego/Rutas/Prim.h Juego/Rutas/Boruvka.cpp Juego/Rutas/Boruvka.h Juego/Rutas/Dijkstra.cpp Juego/Rutas/Dijkstra.h Juego/Rutas/BreadthFirstSearch.cpp Juego/Rutas/BreadthFirstSearch.h Juego/Interfaz/FirstStage/FirstStageW.cpp Juego/Interfaz/FirstStage/FirstStageW.h Juego/LikedList/LinkedList.h Juego/LikedList/Node.h Juego/Rutas/AStar.cpp Juego/Rutas/AStar.h Juego/Rutas/Dijkstra2.cpp Juego/Rutas/Dijkstra2.h)
 
 
 set(EXECUTABLE_NAME "Proyecto2")
