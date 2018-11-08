@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.o"
   "CMakeFiles/Proyecto2.dir/Juego/Rutas/BreadthFirstSearch.cpp.o"
   "CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Juego/Rutas/AStar.cpp.o"
   "../bin/Proyecto2.pdb"
   "../bin/Proyecto2"
 )

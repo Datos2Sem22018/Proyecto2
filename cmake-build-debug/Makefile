@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mariano/Documentos/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/karla/Descargas/clion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/mariano/Documentos/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/karla/Descargas/clion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mariano/CLionProjects/Proyecto2
+CMAKE_SOURCE_DIR = /home/karla/CLionProjects/Proyecto2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mariano/CLionProjects/Proyecto2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/karla/CLionProjects/Proyecto2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/mariano/CLionProjects/Proyecto2/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/mariano/Documentos/clion/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/karla/Descargas/clion/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/mariano/Documentos/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/karla/Descargas/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles /home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles /home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karla/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -284,6 +284,33 @@ Juego/Mapa/Mapa.s: Juego/Mapa/Mapa.cpp.s
 Juego/Mapa/Mapa.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.s
 .PHONY : Juego/Mapa/Mapa.cpp.s
+
+Juego/Rutas/AStar.o: Juego/Rutas/AStar.cpp.o
+
+.PHONY : Juego/Rutas/AStar.o
+
+# target to build an object file
+Juego/Rutas/AStar.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/AStar.cpp.o
+.PHONY : Juego/Rutas/AStar.cpp.o
+
+Juego/Rutas/AStar.i: Juego/Rutas/AStar.cpp.i
+
+.PHONY : Juego/Rutas/AStar.i
+
+# target to preprocess a source file
+Juego/Rutas/AStar.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/AStar.cpp.i
+.PHONY : Juego/Rutas/AStar.cpp.i
+
+Juego/Rutas/AStar.s: Juego/Rutas/AStar.cpp.s
+
+.PHONY : Juego/Rutas/AStar.s
+
+# target to generate assembly for a file
+Juego/Rutas/AStar.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Rutas/AStar.cpp.s
+.PHONY : Juego/Rutas/AStar.cpp.s
 
 Juego/Rutas/Boruvka.o: Juego/Rutas/Boruvka.cpp.o
 
@@ -501,6 +528,9 @@ help:
 	@echo "... Juego/Mapa/Mapa.o"
 	@echo "... Juego/Mapa/Mapa.i"
 	@echo "... Juego/Mapa/Mapa.s"
+	@echo "... Juego/Rutas/AStar.o"
+	@echo "... Juego/Rutas/AStar.i"
+	@echo "... Juego/Rutas/AStar.s"
 	@echo "... Juego/Rutas/Boruvka.o"
 	@echo "... Juego/Rutas/Boruvka.i"
 	@echo "... Juego/Rutas/Boruvka.s"
