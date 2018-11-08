@@ -51,12 +51,12 @@ int Aliado::getYpos() {
 }
 
 void Aliado::setXpos(int offset) {
-    this->posX+=offset;
+    this->posX=offset;
 
 }
 
 void Aliado::setYpos(int offset) {
-    this->posY+=offset;
+    this->posY=offset;
 
 }
 

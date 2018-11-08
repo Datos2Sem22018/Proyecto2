@@ -11,8 +11,7 @@
 #include <unistd.h>
 #include "FirstStageW.h"
 #include "../../Aliado/Aliado.h"
-
-
+#include "../../LikedList/LinkedList.h"
 
 
 int mapa1 [23][23] = {
@@ -79,26 +78,175 @@ void FirstStageW::firstStage(int level) {
                     {
                         mouseXpos=(sf::Mouse::getPosition(firstStage).x)/28;
                         mouseYpos=(sf::Mouse::getPosition(firstStage).y)/28;
-                        std::cout<< mouseXpos <<", "<<mouseYpos<<std::endl;
+                        if(mapa1[mouseXpos][mouseYpos]==1){
+                            std::cout<< "Can't move to: " <<mouseXpos <<", "<<mouseYpos<<std::endl;
+                        }else{
+                            std::cout<<"From this position: "<<a1->getPlayerSprite().getPosition().x<<", "<<a1->getPlayerSprite().getPosition().y<<" to: ";
+                            std::cout<< mouseXpos <<", "<<mouseYpos<<std::endl;
 
-                        /**
-                        sf::Vector2f positions[] = {sf::Vector2f(0*28,22*28),sf::Vector2f(1*28,22*28),sf::Vector2f(2*28,22*28),sf::Vector2f(3*28,22*28),sf::Vector2f(4*28,22*28) };
-                        for(int a=0; a<5;a++)
-                        {
-                            a1->getPlayerSprite().move(positions[a]);
-                            firstStage.draw(a1->getPlayerSprite());
+                            LinkedList<sf::Vector2f> lv;
+                            lv.add(sf::Vector2f(0*28,22*28));
+                            lv.add(sf::Vector2f(1*28,22*28));
+                            lv.add(sf::Vector2f(2*28,22*28));
+                            lv.add(sf::Vector2f(3*28,22*28));
+                            lv.add(sf::Vector2f(3*28,21*28));
+
+
+                            for(int a=0; a<lv.size;a++)
+                            {
+
+                                if(a1->getPlayerSprite().getPosition().x<lv.getNode(a)->data.x){
+                                    for(int a=0; a<28;a++){
+                                        sf::sleep(sf::milliseconds(5));
+                                        a1->getPlayerSprite().move(1.0f,0.0f);
+                                        for (int j = 0; j<23;j ++){
+                                            for (int i = 0; i<23; i++){
+                                                if (mapa1[i][j]==4)
+                                                {
+                                                    sf::Texture texture;
+                                                    texture.loadFromFile("../Images/zombie/z1.png");
+                                                    sf::Sprite spriteEnemy(texture);
+                                                    spriteEnemy.setPosition(j*28, i*28);
+                                                    firstStage.draw(spriteEnemy);
+                                                }
+                                                else if(mapa1[i][j]==1)
+                                                {
+                                                    sf::Texture texture;
+                                                    texture.loadFromFile("../Images/Bush/1.png");
+                                                    sf::Sprite spriteBush(texture);
+                                                    spriteBush.setPosition(j*28, i*28);
+                                                    firstStage.draw(spriteBush);
+                                                }
+                                            }
+                                        }
+
+
+
+                                        firstStage.draw(Sgem);
+                                        firstStage.draw(a1->getPlayerSprite());
+                                        firstStage.display();
+                                        firstStage.clear(sf::Color(168, 192, 32));
+                                    }
+                                }
+                                if(a1->getPlayerSprite().getPosition().x>lv.getNode(a)->data.x){
+                                    for(int a=0; a<28;a++){
+                                        sf::sleep(sf::milliseconds(5));
+                                        a1->getPlayerSprite().move(-1.0f,0.0f);
+                                        for (int j = 0; j<23;j ++){
+                                            for (int i = 0; i<23; i++){
+                                                if (mapa1[i][j]==4)
+                                                {
+                                                    sf::Texture texture;
+                                                    texture.loadFromFile("../Images/zombie/z1.png");
+                                                    sf::Sprite spriteEnemy(texture);
+                                                    spriteEnemy.setPosition(j*28, i*28);
+                                                    firstStage.draw(spriteEnemy);
+                                                }
+                                                else if(mapa1[i][j]==1)
+                                                {
+                                                    sf::Texture texture;
+                                                    texture.loadFromFile("../Images/Bush/1.png");
+                                                    sf::Sprite spriteBush(texture);
+                                                    spriteBush.setPosition(j*28, i*28);
+                                                    firstStage.draw(spriteBush);
+                                                }
+                                            }
+                                        }
+
+
+
+                                        firstStage.draw(Sgem);
+                                        firstStage.draw(a1->getPlayerSprite());
+                                        firstStage.display();
+                                        firstStage.clear(sf::Color(168, 192, 32));
+                                    }
+                                }
+                                if(a1->getPlayerSprite().getPosition().y<lv.getNode(a)->data.y){
+                                    for(int a=0; a<28;a++){
+                                        sf::sleep(sf::milliseconds(5));
+                                        a1->getPlayerSprite().move(0.0f,1.0f);
+                                        for (int j = 0; j<23;j ++){
+                                            for (int i = 0; i<23; i++){
+                                                if (mapa1[i][j]==4)
+                                                {
+                                                    sf::Texture texture;
+                                                    texture.loadFromFile("../Images/zombie/z1.png");
+                                                    sf::Sprite spriteEnemy(texture);
+                                                    spriteEnemy.setPosition(j*28, i*28);
+                                                    firstStage.draw(spriteEnemy);
+                                                }
+                                                else if(mapa1[i][j]==1)
+                                                {
+                                                    sf::Texture texture;
+                                                    texture.loadFromFile("../Images/Bush/1.png");
+                                                    sf::Sprite spriteBush(texture);
+                                                    spriteBush.setPosition(j*28, i*28);
+                                                    firstStage.draw(spriteBush);
+                                                }
+                                            }
+                                        }
+
+
+
+                                        firstStage.draw(Sgem);
+                                        firstStage.draw(a1->getPlayerSprite());
+                                        firstStage.display();
+                                        firstStage.clear(sf::Color(168, 192, 32));
+                                    }
+                                }
+                                if(a1->getPlayerSprite().getPosition().x>lv.getNode(a)->data.x){
+                                    for(int a=0; a<28;a++){
+                                        sf::sleep(sf::milliseconds(5));
+                                        a1->getPlayerSprite().move(0.0f,-1.0f);
+                                        for (int j = 0; j<23;j ++){
+                                            for (int i = 0; i<23; i++){
+                                                if (mapa1[i][j]==4)
+                                                {
+                                                    sf::Texture texture;
+                                                    texture.loadFromFile("../Images/zombie/z1.png");
+                                                    sf::Sprite spriteEnemy(texture);
+                                                    spriteEnemy.setPosition(j*28, i*28);
+                                                    firstStage.draw(spriteEnemy);
+                                                }
+                                                else if(mapa1[i][j]==1)
+                                                {
+                                                    sf::Texture texture;
+                                                    texture.loadFromFile("../Images/Bush/1.png");
+                                                    sf::Sprite spriteBush(texture);
+                                                    spriteBush.setPosition(j*28, i*28);
+                                                    firstStage.draw(spriteBush);
+                                                }
+                                            }
+                                        }
+
+
+
+                                        firstStage.draw(Sgem);
+                                        firstStage.draw(a1->getPlayerSprite());
+                                        firstStage.display();
+                                        firstStage.clear(sf::Color(168, 192, 32));
+                                    }
+                                }
+
+
+                                /**
+                                a1->getPlayerSprite().setPosition(positions[a]);
+                                firstStage.clear(sf::Color(168, 192, 32));
+                                firstStage.draw(a1->getPlayerSprite());
+                                firstStage.display();
+                                 **/
+                            }
+
+
+
+
+
+
+
+
                         }
 
 
-                        while(a1->getXpos()!=mouseXpos && a1->getYpos()!=mouseYpos){
-                            a1->getPlayerSprite().move(1.0f, 0.0f);
-                            a1->setXpos(1);
-                            a1->setYpos(1);
-
-                            std::cout<<a1->getYpos()<<", "<<a1->getYpos()<<std::endl;
-
-                        }
-                        **/
                     }
             }
         }
