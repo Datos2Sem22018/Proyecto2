@@ -39,6 +39,16 @@ int mapa1 [23][23] = {
 {5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0},
 {5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 };
+int grid[23][23];
+for(int i = 0; i < 23; i ++){
+    for(int j = 0; j < 23; j ++){
+        if(mapa1[i][j] == 0){
+            grid[i][j] = 1;
+        }else{
+            grid[i][j] = 0;
+        }
+    }
+}
 
 void FirstStageW::firstStage(int level) {
 
@@ -49,11 +59,11 @@ void FirstStageW::firstStage(int level) {
     int mouseYpos;
 
     if (level == 1){
-        std::cout<<"You selected Easy Game"<<std::endl;
+        std::cout<<"You have selected Easy Game"<<std::endl;
     }else if (level == 2){
-        std::cout<<"You selected Medium Game"<<std::endl;
+        std::cout<<"You have selected Medium Game"<<std::endl;
     }else{
-        std::cout<<"You selected Hard Game"<<std::endl;
+        std::cout<<"You have selected Hard Game"<<std::endl;
     }
 
     sf::Texture gem;

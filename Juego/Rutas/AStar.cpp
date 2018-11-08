@@ -4,6 +4,8 @@
 #include<vector>
 #include<set>
 #include "AStar.h"
+#include "../Interfaz/FirstStage/FirstStageW.h"
+
 #define num 23
 using namespace std;
 
@@ -37,6 +39,7 @@ void AStar::tracePath(int xSource, int ySource, int xDest, int yDest, AStar::cel
         int temp_j=j;
         i=cellDetails[temp_i][temp_j].parent_x;
         j=cellDetails[temp_i][temp_j].parent_y;
+        FirstStageW::lvA.add(sf::Vector2f(i,j));
     }
     cout<<"\nLength of A* path(g) is: "<<cellDetails[xDest][yDest].g<<endl;
 }

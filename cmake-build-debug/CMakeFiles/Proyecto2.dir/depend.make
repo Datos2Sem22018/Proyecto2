@@ -22,15 +22,13 @@ CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/En
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Mapa/Mapa.h
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Rutas/BreadthFirstSearch.h
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Rutas/Dijkstra.h
 
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/FirstStage/FirstStageW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.h
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Rutas/BreadthFirstSearch.h
-CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Rutas/Dijkstra.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/LikedList/LinkedList.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/LikedList/Node.h
 
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.cpp
 CMakeFiles/Proyecto2.dir/Juego/Mapa/Mapa.cpp.o: ../Juego/Mapa/Mapa.h
@@ -40,12 +38,6 @@ CMakeFiles/Proyecto2.dir/Juego/Rutas/AStar.cpp.o: ../Juego/Rutas/AStar.h
 
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o: ../Juego/Rutas/Boruvka.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o: ../Juego/Rutas/Boruvka.h
-
-CMakeFiles/Proyecto2.dir/Juego/Rutas/BreadthFirstSearch.cpp.o: ../Juego/Rutas/BreadthFirstSearch.cpp
-CMakeFiles/Proyecto2.dir/Juego/Rutas/BreadthFirstSearch.cpp.o: ../Juego/Rutas/BreadthFirstSearch.h
-
-CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.o: ../Juego/Rutas/Dijkstra.cpp
-CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra.cpp.o: ../Juego/Rutas/Dijkstra.h
 
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra2.cpp.o: ../Juego/Rutas/Dijkstra2.cpp
 CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra2.cpp.o: ../Juego/Rutas/Dijkstra2.h

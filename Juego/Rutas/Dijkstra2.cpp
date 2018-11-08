@@ -2,6 +2,8 @@
 #include<vector>
 using namespace std;
 #include "Dijkstra2.h"
+#include "../Interfaz/FirstStage/FirstStageW.h"
+
 #define num 23
 
 vector<pair<int,int>> pathD;
@@ -28,6 +30,7 @@ void Dijkstra2::findpath(pair<int, int> (*previous)[num], float (*dist)[num], in
         int save_x=dest_x,save_y=dest_y;
         dest_x=previous[save_x][save_y].first;
         dest_y=previous[save_x][save_y].second;
+        FirstStageW::lvD.add(sf::Vector2f(previous[dest_x][dest_y].first, previous[dest_x][dest_y].second));
     }
 }
 
