@@ -87,7 +87,7 @@ T LinkedList<T>::get(int i){
     while(x != i){
         ptr = ptr->next;
         x++;
-    }if(ptr == nullptr){
+    }if(ptr == NULL){
         return NULL;
     }
     return ptr->data;

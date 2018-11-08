@@ -19,7 +19,7 @@ class Dijkstra2 {
 
 
 public:
-    static LinkedList<sf::Vector2f> lvD;
+    LinkedList<sf::Vector2f> lvD;
     Dijkstra2();
     void dijkstra(int source_x,int source_y,int dest_x,int dest_y,int grid[num][num]);
 };
