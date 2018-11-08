@@ -93,8 +93,8 @@ void FirstStageW::firstStage(int level) {
                         }
                         int playerX = a1->getPlayerSprite().getPosition().x;
                         int playerY = a1->getPlayerSprite().getPosition().y;
-                        AStar aStar;
-                        aStar.Star(playerX, playerY, mouseXpos, mouseYpos, grid);
+                        AStar* aStar = new AStar();
+                        aStar->Star(playerX, playerY, mouseXpos, mouseYpos, grid);
 
                         if(mapa1[mouseXpos][mouseYpos]==1){
                             std::cout<< "Can't move to: " <<mouseXpos <<", "<<mouseYpos<<std::endl;
@@ -104,10 +104,10 @@ void FirstStageW::firstStage(int level) {
 
 
 
-                            for(int a=0; a<lvA.size;a++)
+                            for(int a=0; a<AStar::lvA->size;a++)
                             {
 
-                                if(a1->getPlayerSprite().getPosition().x<lvA.getNode(a)->data.x){
+                                if(a1->getPlayerSprite().getPosition().x<AStar::lvA->getNode(a)->data.x){
                                     for(int a=0; a<28;a++){
                                         sf::sleep(sf::milliseconds(5));
                                         a1->getPlayerSprite().move(1.0f,0.0f);
@@ -140,7 +140,7 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.clear(sf::Color(168, 192, 32));
                                     }
                                 }
-                                if(a1->getPlayerSprite().getPosition().x>lvA.getNode(a)->data.x){
+                                if(a1->getPlayerSprite().getPosition().x>AStar::lvA->getNode(a)->data.x){
                                     for(int a=0; a<28;a++){
                                         sf::sleep(sf::milliseconds(5));
                                         a1->getPlayerSprite().move(-1.0f,0.0f);
@@ -173,7 +173,7 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.clear(sf::Color(168, 192, 32));
                                     }
                                 }
-                                if(a1->getPlayerSprite().getPosition().y<lvA.getNode(a)->data.y){
+                                if(a1->getPlayerSprite().getPosition().y<AStar::lvA->getNode(a)->data.y){
                                     for(int a=0; a<28;a++){
                                         sf::sleep(sf::milliseconds(5));
                                         a1->getPlayerSprite().move(0.0f,1.0f);
@@ -206,7 +206,7 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.clear(sf::Color(168, 192, 32));
                                     }
                                 }
-                                if(a1->getPlayerSprite().getPosition().x>lvA.getNode(a)->data.x){
+                                if(a1->getPlayerSprite().getPosition().x>AStar::lvA->getNode(a)->data.x){
                                     for(int a=0; a<28;a++){
                                         sf::sleep(sf::milliseconds(5));
                                         a1->getPlayerSprite().move(0.0f,-1.0f);

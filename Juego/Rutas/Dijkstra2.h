@@ -1,8 +1,11 @@
+#include<SFML/Graphics.hpp>
 #include<iostream>
 #include<math.h>
 #include<float.h>
 #include<vector>
 #include<set>
+#include "../LikedList/LinkedList.h"
+
 using namespace std;
 
 #ifndef PROYECTO2_DIJKSTRA2_H
@@ -16,6 +19,7 @@ class Dijkstra2 {
 
 
 public:
+    static LinkedList<sf::Vector2f> lvD;
     Dijkstra2();
     void dijkstra(int source_x,int source_y,int dest_x,int dest_y,int grid[num][num]);
 };

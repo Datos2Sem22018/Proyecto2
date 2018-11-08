@@ -13,10 +13,6 @@ class FirstStageW {
 
 
 public:
-
-    static LinkedList<sf::Vector2f> lvA;
-    static LinkedList<sf::Vector2f> lvD;
-
     static void firstStage(int level);
 
 
