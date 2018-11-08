@@ -114,6 +114,12 @@
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Start/StartW.h">
 			<Option target="Proyecto2"/>
 		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/LikedList/LinkedList.h">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/LikedList/Node.h">
+			<Option target="Proyecto2"/>
+		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Proyecto2/Juego/Mapa/Mapa.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>

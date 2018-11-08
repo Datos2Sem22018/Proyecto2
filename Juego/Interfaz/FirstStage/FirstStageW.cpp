@@ -8,8 +8,12 @@
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
+#include <unistd.h>
 #include "FirstStageW.h"
 #include "../../Aliado/Aliado.h"
+
+
+
 
 int mapa1 [23][23] = {
 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,6,6,6},
@@ -42,6 +46,9 @@ void FirstStageW::firstStage(int level) {
     sf::RenderWindow firstStage(sf::VideoMode(644,644), "League of Gems");
     firstStage.setPosition(sf::Vector2i((sf::VideoMode::getDesktopMode().width/2)-322,0));
 
+    int mouseXpos;
+    int mouseYpos;
+
     if (level == 1){
         std::cout<<"You are selected Easy Game"<<std::endl;
     }else if (level == 2){
@@ -55,7 +62,8 @@ void FirstStageW::firstStage(int level) {
     sf::Sprite Sgem(gem);
     Sgem.setPosition(20*28, 0);
 
-    Aliado *a1 = new Aliado(0,28*22);
+    Aliado *a1 = new Aliado(0,22);
+
 
 
     while(firstStage.isOpen()){
@@ -65,9 +73,30 @@ void FirstStageW::firstStage(int level) {
                 case sf::Event::Closed:
                     firstStage.close();
                     break;
+                case sf::Event::MouseButtonPressed:
+                    if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
+                        mouseXpos=(sf::Mouse::getPosition(firstStage).x)/28;
+                        mouseYpos=(sf::Mouse::getPosition(firstStage).y)/28;
+                        std::cout<< mouseXpos <<", "<<mouseYpos<<std::endl;
+
+
+
+                        sf::Vector2f positions[] = {sf::Vector2f(0*28,22*28),sf::Vector2f(1*28,22*28),sf::Vector2f(2*28,22*28),sf::Vector2f(3*28,22*28),sf::Vector2f(4*28,22*28) };
+                        for(int a=0; a<5;a++){
+                            firstStage.waitEvent(timer());
+                            a1->setPosition(positions[a]);
+                            firstStage.draw(a1->getPlayerSprite());
+                        }
+
+                    }
+
             }
         }
 
+
+
+
+        
 
         for (int j = 0; j<23;j ++){
             for (int i = 0; i<23; i++){
@@ -99,3 +128,5 @@ void FirstStageW::firstStage(int level) {
         firstStage.clear(sf::Color(168, 192, 32));
     }
 }
+
+

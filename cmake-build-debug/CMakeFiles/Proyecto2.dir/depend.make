@@ -9,12 +9,21 @@ CMakeFiles/Proyecto2.dir/Juego/Aliado/Aliado.cpp.o: ../Juego/Mapa/Mapa.h
 CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.cpp
 CMakeFiles/Proyecto2.dir/Juego/Enemigo/Enemigo.cpp.o: ../Juego/Enemigo/Enemigo.h
 
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Aliado/Aliado.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Enemigo/Enemigo.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Interfaz/FirstStage/FirstStageW.cpp
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Interfaz/FirstStage/FirstStageW.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Mapa/Mapa.h
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Aliado/Aliado.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Enemigo/Enemigo.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Mapa/Mapa.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Rutas/BreadthFirstSearch.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Rutas/Dijkstra.h
 
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/FirstStage/FirstStageW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/PrincipalW/PrincipalW.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.o: ../Juego/Interfaz/Start/StartW.h

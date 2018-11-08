@@ -30,7 +30,11 @@ public:
     int getAtaque();
     void setAtaque(int Ataque);
 
-    const sf::Sprite &getPlayerSprite() const;
+    sf::Sprite &getPlayerSprite();
+    void setPosition(sf::Vector2f pos);
+    sf::Vector2f getPos();
+    int getXpos();
+    int getYpos();
 };
 
 

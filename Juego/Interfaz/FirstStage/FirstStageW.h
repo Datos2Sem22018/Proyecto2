@@ -10,7 +10,9 @@ class FirstStageW {
 
 
 public:
+
     static void firstStage(int level);
+
 
 };
 

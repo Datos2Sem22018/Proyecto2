@@ -4,6 +4,7 @@
 
 #include "Aliado.h"
 #include "../Enemigo/Enemigo.h"
+#include <unistd.h>
 
 Aliado::Aliado(int posX, int posY) {
     this->attack = 10;
@@ -13,8 +14,9 @@ Aliado::Aliado(int posX, int posY) {
     this->posY=posY;
 
 
-    tSoldier.loadFromFile("../Images/Soldier/soldier1.PNG");
+    tSoldier.loadFromFile("../Images/Soldier/soldier2.PNG");
     playerSprite.setTexture(tSoldier);
+    playerSprite.setPosition(posX*28,posY*28);
 }
 
 void Aliado::morir() {
@@ -31,8 +33,22 @@ void Aliado::atacar(Mapa *mapa, Enemigo *enemigo) {
     }
 }
 
-const sf::Sprite &Aliado::getPlayerSprite() const {
+sf::Sprite &Aliado::getPlayerSprite() {
     return playerSprite;
+}
+
+void Aliado::setPosition(sf::Vector2f pos) {
+    sf::sleep(sf::seconds(0.5));
+    this->playerSprite.setPosition(pos);
+
+}
+
+int Aliado::getXpos() {
+    return this->posX;
+}
+
+int Aliado::getYpos() {
+    return this->posY;
 }
 
 
