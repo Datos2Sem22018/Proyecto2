@@ -13,6 +13,7 @@ class FirstStageW {
 
 
 public:
+    int StageNumber = 1;
     static void firstStage(int level);
 
 

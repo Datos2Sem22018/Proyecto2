@@ -231,6 +231,33 @@ Juego/Interfaz/PrincipalW/PrincipalW.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.s
 .PHONY : Juego/Interfaz/PrincipalW/PrincipalW.cpp.s
 
+Juego/Interfaz/SecondStage/SecondStage.o: Juego/Interfaz/SecondStage/SecondStage.cpp.o
+
+.PHONY : Juego/Interfaz/SecondStage/SecondStage.o
+
+# target to build an object file
+Juego/Interfaz/SecondStage/SecondStage.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.o
+.PHONY : Juego/Interfaz/SecondStage/SecondStage.cpp.o
+
+Juego/Interfaz/SecondStage/SecondStage.i: Juego/Interfaz/SecondStage/SecondStage.cpp.i
+
+.PHONY : Juego/Interfaz/SecondStage/SecondStage.i
+
+# target to preprocess a source file
+Juego/Interfaz/SecondStage/SecondStage.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.i
+.PHONY : Juego/Interfaz/SecondStage/SecondStage.cpp.i
+
+Juego/Interfaz/SecondStage/SecondStage.s: Juego/Interfaz/SecondStage/SecondStage.cpp.s
+
+.PHONY : Juego/Interfaz/SecondStage/SecondStage.s
+
+# target to generate assembly for a file
+Juego/Interfaz/SecondStage/SecondStage.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.s
+.PHONY : Juego/Interfaz/SecondStage/SecondStage.cpp.s
+
 Juego/Interfaz/Start/StartW.o: Juego/Interfaz/Start/StartW.cpp.o
 
 .PHONY : Juego/Interfaz/Start/StartW.o
@@ -257,6 +284,33 @@ Juego/Interfaz/Start/StartW.s: Juego/Interfaz/Start/StartW.cpp.s
 Juego/Interfaz/Start/StartW.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Start/StartW.cpp.s
 .PHONY : Juego/Interfaz/Start/StartW.cpp.s
+
+Juego/Interfaz/Win/Win.o: Juego/Interfaz/Win/Win.cpp.o
+
+.PHONY : Juego/Interfaz/Win/Win.o
+
+# target to build an object file
+Juego/Interfaz/Win/Win.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.o
+.PHONY : Juego/Interfaz/Win/Win.cpp.o
+
+Juego/Interfaz/Win/Win.i: Juego/Interfaz/Win/Win.cpp.i
+
+.PHONY : Juego/Interfaz/Win/Win.i
+
+# target to preprocess a source file
+Juego/Interfaz/Win/Win.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.i
+.PHONY : Juego/Interfaz/Win/Win.cpp.i
+
+Juego/Interfaz/Win/Win.s: Juego/Interfaz/Win/Win.cpp.s
+
+.PHONY : Juego/Interfaz/Win/Win.s
+
+# target to generate assembly for a file
+Juego/Interfaz/Win/Win.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.s
+.PHONY : Juego/Interfaz/Win/Win.cpp.s
 
 Juego/Mapa/Mapa.o: Juego/Mapa/Mapa.cpp.o
 
@@ -495,9 +549,15 @@ help:
 	@echo "... Juego/Interfaz/PrincipalW/PrincipalW.o"
 	@echo "... Juego/Interfaz/PrincipalW/PrincipalW.i"
 	@echo "... Juego/Interfaz/PrincipalW/PrincipalW.s"
+	@echo "... Juego/Interfaz/SecondStage/SecondStage.o"
+	@echo "... Juego/Interfaz/SecondStage/SecondStage.i"
+	@echo "... Juego/Interfaz/SecondStage/SecondStage.s"
 	@echo "... Juego/Interfaz/Start/StartW.o"
 	@echo "... Juego/Interfaz/Start/StartW.i"
 	@echo "... Juego/Interfaz/Start/StartW.s"
+	@echo "... Juego/Interfaz/Win/Win.o"
+	@echo "... Juego/Interfaz/Win/Win.i"
+	@echo "... Juego/Interfaz/Win/Win.s"
 	@echo "... Juego/Mapa/Mapa.o"
 	@echo "... Juego/Mapa/Mapa.i"
 	@echo "... Juego/Mapa/Mapa.s"

@@ -226,6 +226,32 @@ CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra2.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Rutas/Dijkstra2.cpp -o CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra2.cpp.s
 
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.o: ../Juego/Interfaz/Win/Win.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.o -c /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Win/Win.cpp
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Win/Win.cpp > CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.i
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/Win/Win.cpp -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.s
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.o: ../Juego/Interfaz/SecondStage/SecondStage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.o -c /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/SecondStage/SecondStage.cpp
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/SecondStage/SecondStage.cpp > CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.i
+
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariano/CLionProjects/Proyecto2/Juego/Interfaz/SecondStage/SecondStage.cpp -o CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.s
+
 # Object files for target Proyecto2
 Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/main.cpp.o" \
@@ -240,7 +266,9 @@ Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/Juego/Rutas/Boruvka.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Juego/Rutas/AStar.cpp.o" \
-"CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra2.cpp.o"
+"CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra2.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.o"
 
 # External object files for target Proyecto2
 Proyecto2_EXTERNAL_OBJECTS =
@@ -258,6 +286,8 @@ Proyecto2_EXTERNAL_OBJECTS =
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Rutas/AStar.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Rutas/Dijkstra2.cpp.o
+../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Interfaz/Win/Win.cpp.o
+../bin/Proyecto2: CMakeFiles/Proyecto2.dir/Juego/Interfaz/SecondStage/SecondStage.cpp.o
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/build.make
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-window.so
@@ -265,7 +295,7 @@ Proyecto2_EXTERNAL_OBJECTS =
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-network.so
 ../bin/Proyecto2: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 ../bin/Proyecto2: CMakeFiles/Proyecto2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ../bin/Proyecto2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariano/CLionProjects/Proyecto2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ../bin/Proyecto2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

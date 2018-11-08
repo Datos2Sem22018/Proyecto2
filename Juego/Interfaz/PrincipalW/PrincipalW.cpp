@@ -82,6 +82,7 @@ void PrincipalW::principalW() {
                             std::cout << "Obstacule" << std::endl;
                         }else if((m->getDato((posY/28),(posX/28)+1))==4){
                             std::cout << "Attacking to the Right"<< std::endl;
+
                         }else
                         {
                             frameCounter += frameSpeed*clock1.restart().asSeconds();
