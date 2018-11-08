@@ -35,16 +35,18 @@ void AStar::tracePath(int xSource, int ySource, int xDest, int yDest, AStar::cel
         cout<<i<<","<<j<<" to -> \n";
         pathA.push_back(make_pair(i,j));
         //pathSum=pathSum+cellDetails[i][j].g;
+        lvA->add(sf::Vector2f(i,j));
         int temp_i=i;
         int temp_j=j;
         i=cellDetails[temp_i][temp_j].parent_x;
         j=cellDetails[temp_i][temp_j].parent_y;
-        lvA->add(sf::Vector2f(i,j));
+
     }
     cout<<"\nLength of A* path(g) is: "<<cellDetails[xDest][yDest].g<<endl;
 }
 
 void AStar::Star(int xSource, int ySource , int xDest, int yDest, int (*grid)[num]) {
+    std::cout<<xSource<<", "<<ySource<<", "<<xDest<<", "<<yDest<<std::endl;
     set<Ppair> openList;
     cell cellDetails[num][num];
     int i= xSource,j=ySource;

@@ -43,6 +43,8 @@ int mapa1 [23][23] = {
 int grid[23][23];
 
 
+
+
 void FirstStageW::firstStage(int level) {
 
     sf::RenderWindow firstStage(sf::VideoMode(644,644), "League of Gems");
@@ -50,14 +52,46 @@ void FirstStageW::firstStage(int level) {
 
     int mouseXpos;
     int mouseYpos;
-    LinkedList<sf::Vector2f>* movementList;
+
 
     if (level == 1){
         std::cout<<"You have selected Easy Game"<<std::endl;
+
     }else if (level == 2){
         std::cout<<"You have selected Medium Game"<<std::endl;
+        mapa1[0][14]=4;
+        mapa1[1][15]=4;
+        mapa1[2][16]=4;
+        mapa1[3][17]=4;
+        mapa1[4][18]=4;
+        mapa1[5][19]=4;
+        mapa1[6][20]=4;
+        mapa1[7][21]=4;
+        mapa1[8][22]=4;
     }else{
         std::cout<<"You have selected Hard Game"<<std::endl;
+        mapa1[0][14]=4;
+        mapa1[1][15]=4;
+        mapa1[2][16]=4;
+        mapa1[3][17]=4;
+        mapa1[4][18]=4;
+        mapa1[5][19]=4;
+        mapa1[6][20]=4;
+        mapa1[7][21]=4;
+        mapa1[8][22]=4;
+
+        mapa1[0][12]=4;
+        mapa1[1][13]=4;
+        mapa1[2][14]=4;
+        mapa1[3][15]=4;
+        mapa1[4][16]=4;
+        mapa1[5][17]=4;
+        mapa1[6][18]=4;
+        mapa1[7][19]=4;
+        mapa1[8][20]=4;
+        mapa1[9][21]=4;
+        mapa1[10][22]=4;
+
     }
 
     sf::Texture gem;
@@ -94,25 +128,41 @@ void FirstStageW::firstStage(int level) {
                         }
                         int playerX = a1->getPlayerSprite().getPosition().x/28;
                         int playerY = a1->getPlayerSprite().getPosition().y/28;
-                        AStar* aStar = new AStar();
-                        aStar->Star(playerX, playerY, mouseXpos, mouseYpos, grid);
-                        movementList = aStar->lvA;
+                        //AStar* aStar = new AStar();
+                        //aStar->Star(playerX, playerY, mouseXpos, mouseYpos, grid);
+                        //movementList = aStar->lvA;
 
                         if(mapa1[mouseXpos][mouseYpos]==1){
                             std::cout<< "Can't move to: " <<mouseXpos <<", "<<mouseYpos<<std::endl;
-                        }else{
+                        }
+                        else if(mapa1[mouseXpos][mouseYpos]==4) {
+                            std::cout<< "Enemy on: " <<mouseXpos <<", "<<mouseYpos<<std::endl;
+                        }
+                        else{
                             std::cout<<"From this position: "<<playerX<<", "<<playerY<<" to: ";
                             std::cout<< mouseXpos <<", "<<mouseYpos<<std::endl;
 
+                            LinkedList<sf::Vector2f> movementList;
+                            movementList.add(sf::Vector2f(0,22));
+                            movementList.add(sf::Vector2f(1,22));
+                            movementList.add(sf::Vector2f(2,22));
+                            movementList.add(sf::Vector2f(2,21));
+                            movementList.add(sf::Vector2f(2,20));
+                            movementList.add(sf::Vector2f(3,20));
+                            movementList.add(sf::Vector2f(4,20));
+                            movementList.add(sf::Vector2f(5,20));
+                            movementList.add(sf::Vector2f(6,20));
+                            movementList.add(sf::Vector2f(6,21));
+                            movementList.add(sf::Vector2f(6,22));
+                            movementList.add(sf::Vector2f(7,22));
 
-
-                            for(int a=movementList->size; a>0;a--)
+                            for(int a=0; a<movementList.size;a++)
                             {
-
-                                if(a1->getPlayerSprite().getPosition().x<movementList->getNode(a)->data.x){
-                                    for(int a=0; a<28;a++){
-                                        sf::sleep(sf::milliseconds(5));
-                                        a1->getPlayerSprite().move(1.0f,0.0f);
+                                std::cout<<movementList.getNode(a)->data.x<<", "<<movementList.getNode(a)->data.y<<std::endl;
+                                if(a1->getPlayerSprite().getPosition().x<movementList.getNode(a)->data.x){
+                                    //for(int a=0; a<28;a++){
+                                        sf::sleep(sf::milliseconds(250));
+                                        a1->getPlayerSprite().setPosition(movementList.getNode(a)->data.x*28,movementList.getNode(a)->data.y*28);
                                         for (int j = 0; j<23;j ++){
                                             for (int i = 0; i<23; i++){
                                                 if (mapa1[i][j]==4)
@@ -140,12 +190,12 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.draw(a1->getPlayerSprite());
                                         firstStage.display();
                                         firstStage.clear(sf::Color(168, 192, 32));
-                                    }
+                                    //}
                                 }
-                                if(a1->getPlayerSprite().getPosition().x>movementList->getNode(a)->data.x){
-                                    for(int a=0; a<28;a++){
-                                        sf::sleep(sf::milliseconds(5));
-                                        a1->getPlayerSprite().move(-1.0f,0.0f);
+                                else{
+                                    //for(int a=0; a<28;a++){
+                                        sf::sleep(sf::milliseconds(250));
+                                        a1->getPlayerSprite().setPosition(movementList.getNode(a)->data.x*28,movementList.getNode(a)->data.y*28);
                                         for (int j = 0; j<23;j ++){
                                             for (int i = 0; i<23; i++){
                                                 if (mapa1[i][j]==4)
@@ -173,12 +223,12 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.draw(a1->getPlayerSprite());
                                         firstStage.display();
                                         firstStage.clear(sf::Color(168, 192, 32));
-                                    }
+                                    //}
                                 }
-                                if(a1->getPlayerSprite().getPosition().y<movementList->getNode(a)->data.y){
-                                    for(int a=0; a<28;a++){
-                                        sf::sleep(sf::milliseconds(5));
-                                        a1->getPlayerSprite().move(0.0f,1.0f);
+                                if(a1->getPlayerSprite().getPosition().y<movementList.getNode(a)->data.y){
+                                    //for(int a=0; a<28;a++){
+                                        sf::sleep(sf::milliseconds(250));
+                                        a1->getPlayerSprite().setPosition(movementList.getNode(a)->data.x*28,movementList.getNode(a)->data.y*28);
                                         for (int j = 0; j<23;j ++){
                                             for (int i = 0; i<23; i++){
                                                 if (mapa1[i][j]==4)
@@ -206,12 +256,12 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.draw(a1->getPlayerSprite());
                                         firstStage.display();
                                         firstStage.clear(sf::Color(168, 192, 32));
-                                    }
+                                    //}
                                 }
-                                if(a1->getPlayerSprite().getPosition().x>movementList->getNode(a)->data.x){
-                                    for(int a=0; a<28;a++){
-                                        sf::sleep(sf::milliseconds(5));
-                                        a1->getPlayerSprite().move(0.0f,-1.0f);
+                                else{
+                                    //for(int a=0; a<28;a++){
+                                        sf::sleep(sf::milliseconds(250));
+                                        a1->getPlayerSprite().setPosition(movementList.getNode(a)->data.x*28,movementList.getNode(a)->data.y*28);
                                         for (int j = 0; j<23;j ++){
                                             for (int i = 0; i<23; i++){
                                                 if (mapa1[i][j]==4)
@@ -239,7 +289,7 @@ void FirstStageW::firstStage(int level) {
                                         firstStage.draw(a1->getPlayerSprite());
                                         firstStage.display();
                                         firstStage.clear(sf::Color(168, 192, 32));
-                                    }
+                                    //}
                                 }
 
 
@@ -293,5 +343,6 @@ void FirstStageW::firstStage(int level) {
         firstStage.clear(sf::Color(168, 192, 32));
     }
 }
+
 
 
