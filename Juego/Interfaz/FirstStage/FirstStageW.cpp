@@ -69,44 +69,48 @@ void FirstStageW::firstStage(int level) {
     while(firstStage.isOpen()){
         sf::Event event;
         while (firstStage.pollEvent(event)){
-            switch (event.type){
+            switch (event.type)
+            {
                 case sf::Event::Closed:
                     firstStage.close();
                     break;
                 case sf::Event::MouseButtonPressed:
-                    if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
+                    if(sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                    {
                         mouseXpos=(sf::Mouse::getPosition(firstStage).x)/28;
                         mouseYpos=(sf::Mouse::getPosition(firstStage).y)/28;
                         std::cout<< mouseXpos <<", "<<mouseYpos<<std::endl;
 
-
-
+                        /**
                         sf::Vector2f positions[] = {sf::Vector2f(0*28,22*28),sf::Vector2f(1*28,22*28),sf::Vector2f(2*28,22*28),sf::Vector2f(3*28,22*28),sf::Vector2f(4*28,22*28) };
-                        for(int a=0; a<5;a++){
-                            firstStage.waitEvent(timer());
-                            a1->setPosition(positions[a]);
+                        for(int a=0; a<5;a++)
+                        {
+                            a1->getPlayerSprite().move(positions[a]);
                             firstStage.draw(a1->getPlayerSprite());
                         }
 
-                    }
 
+                        while(a1->getXpos()!=mouseXpos && a1->getYpos()!=mouseYpos){
+                            a1->getPlayerSprite().move(1.0f, 0.0f);
+                            a1->setXpos(1);
+                            a1->setYpos(1);
+
+                            std::cout<<a1->getYpos()<<", "<<a1->getYpos()<<std::endl;
+
+                        }
+                        **/
+                    }
             }
         }
-
-
-
-
-        
-
         for (int j = 0; j<23;j ++){
             for (int i = 0; i<23; i++){
                 if (mapa1[i][j]==4)
                 {
-                    sf::RectangleShape rectEnemy;
-                    rectEnemy.setFillColor(sf::Color::Green);
-                    rectEnemy.setSize(sf::Vector2f(28,28));
-                    rectEnemy.setPosition(j*28, i*28);
-                    firstStage.draw(rectEnemy);
+                    sf::Texture texture;
+                    texture.loadFromFile("../Images/zombie/z1.png");
+                    sf::Sprite spriteEnemy(texture);
+                    spriteEnemy.setPosition(j*28, i*28);
+                    firstStage.draw(spriteEnemy);
                 }
                 else if(mapa1[i][j]==1)
                 {
@@ -118,7 +122,6 @@ void FirstStageW::firstStage(int level) {
                 }
             }
         }
-
 
 
 

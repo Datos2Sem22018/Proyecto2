@@ -35,6 +35,9 @@ public:
     sf::Vector2f getPos();
     int getXpos();
     int getYpos();
+    void setXpos(int);
+    void setYpos(int);
+    void move(int, int);
 };
 
 

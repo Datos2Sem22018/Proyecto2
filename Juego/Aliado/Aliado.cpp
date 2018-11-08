@@ -38,7 +38,6 @@ sf::Sprite &Aliado::getPlayerSprite() {
 }
 
 void Aliado::setPosition(sf::Vector2f pos) {
-    sf::sleep(sf::seconds(0.5));
     this->playerSprite.setPosition(pos);
 
 }
@@ -49,6 +48,23 @@ int Aliado::getXpos() {
 
 int Aliado::getYpos() {
     return this->posY;
+}
+
+void Aliado::setXpos(int offset) {
+    this->posX+=offset;
+
+}
+
+void Aliado::setYpos(int offset) {
+    this->posY+=offset;
+
+}
+
+void Aliado::move(int mouseXpos, int mouseYpos){
+
+
+
+
 }
 
 
