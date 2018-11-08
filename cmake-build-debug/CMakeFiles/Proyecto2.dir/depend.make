@@ -13,6 +13,8 @@ CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/A
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Enemigo/Enemigo.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Interfaz/FirstStage/FirstStageW.cpp
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Interfaz/FirstStage/FirstStageW.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/LikedList/LinkedList.h
+CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/LikedList/Node.h
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/FirstStage/FirstStageW.cpp.o: ../Juego/Mapa/Mapa.h
 
 CMakeFiles/Proyecto2.dir/Juego/Interfaz/PrincipalW/PrincipalW.cpp.o: ../Juego/Aliado/Aliado.h
