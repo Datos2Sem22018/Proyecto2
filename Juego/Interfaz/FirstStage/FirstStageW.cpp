@@ -120,7 +120,7 @@ void FirstStageW::firstStage(int level) {
         if(c==0 && playerX/28==21 && playerY/28==1){
 
             firstStage.close();
-            SecondStage::secondtStage(3);
+            SecondStage::secondtStage(level);
             break;
 
 
