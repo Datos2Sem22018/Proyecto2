@@ -31,11 +31,9 @@ float AStar::calculateHvalue(int row,int col,int xDest, int yDest){
 void AStar::tracePath(int xSource, int ySource, int xDest, int yDest, AStar::cell (*cellDetails)[num]) {
     int i=cellDetails[xDest][yDest].parent_x,j=cellDetails[xDest][yDest].parent_y;
     while(!(i==xSource && j==ySource)){
-        //sleep(milliseconds(10));        //delay shortest path
         cout<<i<<","<<j<<" to -> \n";
         pathA.push_back(make_pair(i,j));
-        //pathSum=pathSum+cellDetails[i][j].g;
-        lvA->add(sf::Vector2f(i,j));
+        ListPos(i, j);
         int temp_i=i;
         int temp_j=j;
         i=cellDetails[temp_i][temp_j].parent_x;
@@ -181,4 +179,14 @@ void AStar::Star(int xSource, int ySource , int xDest, int yDest, int (*grid)[nu
 
 AStar::AStar() {
 
+}
+
+void AStar::ListPos(int i, int j) {
+
+    lvA.add(sf::Vector2f(i-1,j-1));
+
+}
+
+LinkedList<sf::Vector2f> AStar::getList(){
+    return lvA;
 }

@@ -39,9 +39,9 @@ int mapa1 [23][23] = {
 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0},
 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0},
 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0},
-{5,5,5,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0},
-{5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0},
-{5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+{0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0},
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0},
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 };
 int grid[23][23];
 
@@ -116,7 +116,6 @@ void FirstStageW::firstStage(int level) {
 
 
     while(firstStage.isOpen()){
-        std::cout<<c<<std::endl;
         if(c==0 && playerX/28==21 && playerY/28==1){
 
             firstStage.close();
@@ -135,23 +134,9 @@ void FirstStageW::firstStage(int level) {
                 case sf::Event::MouseButtonPressed:
                     if(sf::Mouse::isButtonPressed(sf::Mouse::Left))
                     {
+
                         mouseXpos=(sf::Mouse::getPosition(firstStage).x)/28;
                         mouseYpos=(sf::Mouse::getPosition(firstStage).y)/28;
-
-                        for(int i = 0; i < 23; i ++){
-                            for(int j = 0; j < 23; j ++){
-                                if(mapa1[i][j] == 0){
-                                    grid[i][j] = 1;
-                                }else{
-                                    grid[i][j] = 0;
-                                }
-                            }
-                        }
-
-                        //AStar* aStar = new AStar();
-                        //aStar->Star(playerX, playerY, mouseXpos, mouseYpos, grid);
-                        //movementList = aStar->lvA;
-
                         if(mapa1[mouseXpos][mouseYpos]==1){
                             std::cout<< "Can't move to: " <<mouseXpos <<", "<<mouseYpos<<std::endl;
                         }
@@ -175,31 +160,30 @@ void FirstStageW::firstStage(int level) {
                             std::cout<<"From this position: "<<playerX/28<<", "<<playerY/28<<" to: ";
                             std::cout<< mouseXpos <<", "<<mouseYpos<<std::endl;
 
-                            LinkedList<sf::Vector2f> movementList;
-                            movementList.add(sf::Vector2f(0,22));
-                            movementList.add(sf::Vector2f(1,22));
-                            movementList.add(sf::Vector2f(3,22));
-                            movementList.add(sf::Vector2f(4,21));
-                            movementList.add(sf::Vector2f(5,20));
-                            movementList.add(sf::Vector2f(6,20));
-                            movementList.add(sf::Vector2f(7,19));
-                            movementList.add(sf::Vector2f(8,19));
-                            movementList.add(sf::Vector2f(9,19));
-                            movementList.add(sf::Vector2f(10,18));
-                            movementList.add(sf::Vector2f(11,18));
-                            movementList.add(sf::Vector2f(12,16));
-                            movementList.add(sf::Vector2f(13,14));
-                            movementList.add(sf::Vector2f(14,13));
-                            movementList.add(sf::Vector2f(15,12));
-                            movementList.add(sf::Vector2f(16,10));
-                            movementList.add(sf::Vector2f(17,10));
-                            movementList.add(sf::Vector2f(18,9));
-                            movementList.add(sf::Vector2f(19,8));
-                            movementList.add(sf::Vector2f(20,6));
-                            movementList.add(sf::Vector2f(21,4));
-                            movementList.add(sf::Vector2f(22,2));
 
-                            for(int a=0; a<movementList.size;a++)
+                            for(int i = 0; i < 23; i ++){
+                                for(int j = 0; j < 23; j ++){
+                                    if(mapa1[i][j] == 0){
+                                        grid[i][j] = 1;
+                                    }else{
+                                        grid[j][i] = 0;
+                                    }
+                                }
+                            }
+                            LinkedList<sf::Vector2f> movementList;
+                            std::cout<<"y"<<std::endl;
+
+                            AStar* aStar = new AStar();
+                            aStar->Star(playerX/28, playerY/28, mouseXpos, mouseYpos, grid);
+                            std::cout<<"x"<<std::endl;
+                            movementList = aStar->getList();
+
+                            a1->setPosition(movementList.getNode(0)->data);
+
+
+
+
+                            for(int a=movementList.size-1; a!=0;a--)
                             {
                                 std::cout<<movementList.getNode(a)->data.x<<", "<<movementList.getNode(a)->data.y<<std::endl;
                                 if(a1->getPlayerSprite().getPosition().x<movementList.getNode(a)->data.x){
@@ -332,6 +316,9 @@ void FirstStageW::firstStage(int level) {
                             }
                         }
                     }
+
+                    mouseXpos=0;
+                    mouseYpos=0;
                     //Movimiento con las teclas
                 case sf::Event::KeyPressed:
                     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){

@@ -137,6 +137,7 @@ void LinkedList<T>::add(T var) {
     }
 }
 
+
 /**
  * remueve el nodo de la posicion solicitada
  * @tparam T

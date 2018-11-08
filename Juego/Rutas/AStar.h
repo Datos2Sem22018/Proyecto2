@@ -26,9 +26,11 @@ class AStar {
     void tracePath(int xSource, int ySource,int xDest, int yDest,cell cellDetails[][num]);
 
 public:
-    LinkedList<sf::Vector2f>* lvA;
+    LinkedList<sf::Vector2f> lvA;
     void Star(int xSource, int ySource, int xDest, int yDest, int grid[num][num]);
+    void ListPos(int i, int j);
     AStar();
+    LinkedList<sf::Vector2f> getList();
 };
 #endif //PROYECTO2_ASTAR_H
 
