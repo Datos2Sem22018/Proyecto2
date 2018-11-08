@@ -6,10 +6,15 @@
 #define PROYECTO2_FIRSTSTAGEW_H
 
 
+#include "../../LikedList/LinkedList.h"
+#include <SFML/Graphics.hpp>
+
 class FirstStageW {
 
 
 public:
+
+    static LinkedList<sf::Vector2f> lv;
 
     static void firstStage(int level);
 
